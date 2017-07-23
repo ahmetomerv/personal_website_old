@@ -102,9 +102,9 @@ body {
         text-shadow: 3px 1px 4px rgba(0, 0, 0, 0.5); }
       #main .wrapper .home-content .primary-button {
         position: relative;
-        background: #006eff;
+        background: #357fe0;
         color: white;
-        padding: .7em 3.2em;
+        padding: .8em 3.4em;
         text-decoration: none;
         border-radius: 3.5px;
         margin-bottom: 4em;
@@ -117,7 +117,7 @@ body {
         -moz-box-shadow: -4px 10px 25px 5px rgba(0, 0, 0, 0.39);
         box-shadow: -4px 10px 25px 5px rgba(0, 0, 0, 0.39); }
         #main .wrapper .home-content .primary-button:hover {
-          background: #348bff;
+          background: #4c95f6;
           -webkit-box-shadow: -5px 8px 38px -4px rgba(0, 0, 0, 0.39);
           -moz-box-shadow: -5px 8px 38px -4px rgba(0, 0, 0, 0.39);
           box-shadow: -5px 8px 38px -4px rgba(0, 0, 0, 0.39); }
@@ -128,12 +128,12 @@ body {
         text-decoration: none;
         color: white;
         font-size: .9em;
-        opacity: .6;
+        opacity: .3;
         -webkit-transition: opacity .2s ease-in-out;
         -o-transition: opacity .2s ease-in-out;
         transition: opacity .2s ease-in-out; }
         #main .wrapper .home-content #scroll:hover {
-          opacity: 1; }
+          opacity: .6; }
 
 #services {
   max-width: 100%;
@@ -143,6 +143,7 @@ body {
     margin: 0;
     width: 100%; }
     #services .wrapper h2 {
+      color: #2e2e2e;
       text-align: center;
       margin-top: 0;
       padding-top: 2em; }
@@ -192,7 +193,7 @@ body {
           width: 80%;
           padding: 1em; }
           #services .wrapper #cards-container .card .card-content h1 {
-            color: #343434;
+            color: #2e3d49;
             font-size: 1.4em;
             padding-top: .3em;
             padding-left: .6em;
@@ -249,6 +250,127 @@ body {
         filter: brightness(110%); }
         #services .wrapper #cards-container .e-com .card-img img {
           opacity: .4; }
+
+.line-seperator {
+  width: 1100px;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  opacity: .3; }
+
+#whatIdo {
+  max-width: 100%;
+  margin: 0;
+  padding: 0 2em 2em 2em; }
+  #whatIdo .wrapper {
+    text-align: center; }
+    #whatIdo .wrapper h2 {
+      color: #2e2e2e; }
+    #whatIdo .wrapper .logo-container {
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      width: 100%; }
+      #whatIdo .wrapper .logo-container img {
+        -webkit-box-flex: 1;
+        -webkit-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+        max-width: 5%;
+        padding: 1em 3em; }
+    #whatIdo .wrapper .line-seperator {
+      width: 40%;
+      margin-top: 0;
+      opacity: .4; }
+    #whatIdo .wrapper p {
+      width: 80%;
+      text-align: center;
+      margin: 0 auto;
+      padding: 2em;
+      line-height: 1.4;
+      font-size: 1.3em;
+      color: #919191; }
+
+#works {
+  width: 100; }
+  #works .wrapper {
+    padding-bottom: 3em;
+    margin-bottom: 5em; }
+    #works .wrapper h2 {
+      color: #2e2e2e;
+      text-align: center;
+      margin-top: -.2em;
+      margin-bottom: 3em; }
+    #works .wrapper .workbox-container {
+      isplay: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: -webkit-box;
+      display: flex;
+      -webkit-flex-flow: row wrap;
+      -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+      justify-content: space-around;
+      padding: 1em; }
+      #works .wrapper .workbox-container .workbox {
+        width: 350px;
+        height: 240px; }
+        #works .wrapper .workbox-container .workbox img {
+          width: 100%;
+          border-radius: 3.5px; }
+        #works .wrapper .workbox-container .workbox .workbox-content {
+          max-width: 100%;
+          height: 236px;
+          text-align: center;
+          position: relative;
+          border-radius: 3.5px;
+          overflow: hidden;
+          bottom: 237px;
+          background: rgba(3, 14, 33, 0.9);
+          color: white;
+          opacity: 0;
+          -webkit-transition: opacity .3s ease-in-out;
+          -o-transition: opacity .3s ease-in-out;
+          transition: opacity .3s ease-in-out; }
+          #works .wrapper .workbox-container .workbox .workbox-content .primary-button {
+            background: #357fe0;
+            color: white;
+            font-size: .9em;
+            padding: .7em 1.8em;
+            text-decoration: none;
+            position: relative;
+            top: 50px;
+            margin: 1em;
+            border-radius: 3.5px;
+            -webkit-transition: background .2s ease-in-out, -webkit-box-shadow .3s ease-in-out;
+            transition: background .2s ease-in-out, -webkit-box-shadow .3s ease-in-out;
+            -o-transition: box-shadow .3s ease-in-out, background .2s ease-in-out;
+            transition: box-shadow .3s ease-in-out, background .2s ease-in-out;
+            transition: box-shadow .3s ease-in-out, background .2s ease-in-out, -webkit-box-shadow .3s ease-in-out;
+            -webkit-box-shadow: -4px 10px 25px 5px rgba(0, 0, 0, 0.39);
+            -moz-box-shadow: -4px 10px 25px 5px rgba(0, 0, 0, 0.39);
+            box-shadow: -4px 10px 25px 5px rgba(0, 0, 0, 0.39); }
+            #works .wrapper .workbox-container .workbox .workbox-content .primary-button:hover {
+              background: #4c95f6;
+              -webkit-box-shadow: -5px 8px 38px -4px rgba(0, 0, 0, 0.39);
+              -moz-box-shadow: -5px 8px 38px -4px rgba(0, 0, 0, 0.39);
+              box-shadow: -5px 8px 38px -4px rgba(0, 0, 0, 0.39); }
+          #works .wrapper .workbox-container .workbox .workbox-content h3 {
+            margin-top: 3em;
+            text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5); }
+          #works .wrapper .workbox-container .workbox .workbox-content p {
+            width: 85%;
+            margin: 0 auto;
+            font-size: .8em;
+            color: #e6e6e6; }
+          #works .wrapper .workbox-container .workbox .workbox-content:hover {
+            opacity: 1; }
 
 /* media queries */
 @media only screen and (max-width: 600px) {
