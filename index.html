@@ -4,28 +4,31 @@
     <meta charset="utf-8">
     <title>Ahmet Ömer | Developer</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
     <section id="main">
       <div class="wrapper">
-        <header>
-            <h3>Ahmet <span>Ömer</span></h3>
+          <header>
+              <!-- <a class="name" href="#home">Ahmet <span>Ömer</span></a> -->
+              <a href="#home"><img src="img/logo.svg" alt="logo"></a>
               <nav>
-                <a href="#main">Home</a>
-                <a href="#services">Services</a>
-                <a href="#works">Works</a>
-                <a href="#contact">Contact</a>
-                <a href="#about">About</a>
+                <ul>
+                  <li><a href="#home">Home</a></li>
+                  <li><a href="#services">Services</a></li>
+                  <li><a href="#works">Works</a></li>
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#contact">Contact</a></li>
+                </ul>
               </nav>
           </header>
           <div class="home-content">
-            <h1>Hi I'm Ahmet Ömer, a web develover</h1>
-            <p>I'm a 19 years old web developer & designer from Turkey. I create professional websites and applications, user experience & interfaces.</p>
-            <img src="img/meteorite.svg" alt="meteorite">
+            <h1>Hi, I'm Ahmet Ömer, a web developer</h1>
+            <p>I'm a 19 years old web developer & designer from Turkey.<br>I create professional websites & web applications, user experience & interfaces.</p>
             <a class="primary-button" href="#contact">Contact</a>
             <br>
-            <a href="#services">Scroll down to explore</a>
+            <a id="scroll" href="#services">Scroll down to explore</a>
           </div>
       </div>
     </section>
@@ -33,18 +36,176 @@
     <section id="services">
       <div class="wrapper">
         <h2>Services</h2>
-        <div id="cards">
+
+        <div id="cards-container">
+
           <div class="web-dev card">
             <div class="card-img">
               <img src="img/laptop.jpg" alt="laptop">
             </div>
             <div class="card-content">
-              <h1>Technology</h1>
+              <h1>Web Development</h1>
               <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae perferendis voluptas consequatur ipsa consectetur quam cum repellat earum.</p>
             </div>
           </div>
+
+          <div class="web-des card">
+            <div class="card-img">
+              <img src="img/structure.jpg" alt="structure">
+            </div>
+            <div class="card-content">
+              <h1>Web Design</h1>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae perferendis voluptas consequatur ipsa consectetur quam cum repellat earum.</p>
+            </div>
+          </div>
+
+          <div class="psd card">
+            <div class="card-img">
+              <img src="img/screen.jpg" alt="screen">
+            </div>
+            <div class="card-content">
+              <h1>PSD to HTML & CSS</h1>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae perferendis voluptas consequatur ipsa consectetur quam cum repellat earum.</p>
+            </div>
+          </div>
+
+          <div class="res-des card">
+            <div class="card-img">
+              <img src="img/phone.jpg" alt="phone">
+            </div>
+            <div class="card-content">
+              <h1>Responsive Design</h1>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae perferendis voluptas consequatur ipsa consectetur quam cum repellat earum.</p>
+            </div>
+          </div>
+
+          <div class="ui-ux card">
+            <div class="card-img">
+              <img src="img/ux.jpg" alt="ux">
+            </div>
+            <div class="card-content">
+              <h1>UX/UI</h1>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae perferendis voluptas consequatur ipsa consectetur quam cum repellat earum.</p>
+            </div>
+          </div>
+
+          <div class="e-com card">
+            <div class="card-img">
+              <img src="img/meeting.jpg" alt="metting">
+            </div>
+            <div class="card-content">
+              <h1>E-Commerce</h1>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae perferendis voluptas consequatur ipsa consectetur quam cum repellat earum.</p>
+            </div>
+          </div>
+
+        </div><!-- cards-container -->
+
+      </div> <!-- wrapper -->
+    </section>
+    <hr>
+    <!-- <section id="whatIdo">
+      <div class="wrapper">
+        <h2>What I do</h2>
+        <div class="logo">
+          <img src="img/browser.svg" alt="browser icon">
+          <img src="img/diamond.svg" alt="diamond icon">
+          <img src="img/checked.svg" alt="checked icon">
+        </div>
+        <hr>
+        <p>I create responsive websites & applications that allow the user to experience in the best and most appropriate way suited to the device they are using. UX & UI are very importan aspects in the product, elements I create will make the users feel depth and excitement, providing a value even in a simple button click. My elements will be intetgrated and connected to each other in terms of design and experience giving the users a pleasure, a satisfaction while using the app or the website. Generating positive emotions and value in the user while interacting with the product is a big gold plus. Whatever your goal/product/service is, the representaion of them is super important. Making the best smartphone in the world is not enough, there must be something reflecting the value and quality, I work on providing that; through code, UX/UI, interaction and design.</p>
+        <hr>
+      </div>
+    </section>
+
+    <section id="works">
+      <div class="wrapper">
+        <h2>Works</h2>
+        <div class="workbox-container">
+
+          <div class="workbox superagency">
+            <img src="img/showcase_superagency.jpg" alt="superagency">
+            <div class="overlay workbox-content">
+              <h3>SuperAgency</h3>
+              <p>a fictional agency website with front-end technologies.</p>
+              <a class="primary-button" href="#">See code</a>
+              <a class="primary-button" href="#">See it live</a>
+            </div>
+          </div>
+
+          <div class="workbox portfolio">
+            <img src="img/showcase_portfolio.jpg" alt="portfolio">
+            <div class="overlay workbox-content">
+              <h3>Portfolio (v1)</h3>
+              <p>my first portfolio site built with front-end technologies.</p>
+              <a class="primary-button" href="#">See code</a>
+              <a class="primary-button" href="#">See it live</a>
+            </div>
+          </div>
+
+          <div class="workbox movieone">
+            <img src="img/showcase_movieone.jpg" alt="movieone">
+            <div class="overlay workbox-content">
+              <h3>MovieOne</h3>
+              <p>a fictional tv-series & movies streaming UI/UX built with front-end technologies.</p>
+              <a class="primary-button" href="#">See code</a>
+              <a class="primary-button" href="#">See it live</a>
+            </div>
+          </div>
+
         </div>
       </div>
     </section>
+
+    <section id="about">
+      <div class="wrapper">
+        <h2>About</h2>
+        <div class="about-box">
+
+          <div class="me">
+            <div class="header">
+              <img src="img/profile.jpg" alt="profile">
+              <h3>Ahmet Ömer</h3>
+              <p>Front-end developer <br>& Space lover</p>
+            </div>
+            <p>I am a front-end web developer & designer. I have design experience of 3 years and +6 months web development experience. I love beautiful & clean design with perfect code backing it up and I hate ugly designs and ploppy code, they should be illegal and not allowed to be published (including mine).
+I consider myself a team player, a good forward striker. I adore football, basketball too. My favourite team is Fenerbahçe. I love FIFA World Cup, UEFA CL and UEFA EURO. My favourite planets are Earth and Mars. I love searching up companies net worth. I love gaming. I hate slow stupid phones. These all are a small part of me.</p>
+          </div>
+
+          <div class="future">
+            <div class="header">
+              <img src="img/chip.png" alt="chip">
+              <h3>What I want to do</h3>
+            </div>
+            <p>I want to create beautiful, fresh, clean, functional and interactive website & applications using the latest technologies and working with talented developers and designers. I want to work at creative, innovative & visionary companies that respect developers & designers who create high quality products and make the web a better place, perhaps the world too.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="wrapper">
+        <h1>Do you want to talk about a new work?</h1>
+        <p>I'm currently open for new project and work oppurtunities. If you want to hire, feel free to get in touch with me.</p>
+        <a href="#" class="primary-button">Contact</a>
+      </div>
+    </section>
+
+    <footer>
+      <div class="wrapper">
+        <div class="social">
+          <a href="#"><img src="img/github-logo.svg" alt="github logo"></a>
+          <a href="#"><img src="img/twitter-logo.svg" alt="twitter logo"></a>
+          <a href="#"><img src="img/linkedin-logo.svg" alt="linkedin logo"></a>
+          <a href="#"><img src="img/behance-logo.svg" alt="behance logo"></a>
+          <a href="#"><img src="img/facebook-logo.svg" alt="facebook logo"></a>
+          <a href="#"><img src="img/instagram-logo.svg" alt="instagram logo"></a>
+          <a href="#"><img src="img/stackoverflow-logo.svg" alt="stackoverflow logo"></a>
+          <a href="#"><img src="img/codepen-logo.svg" alt="codepen logo"></a>
+        </div>
+        <p>Made in Turkey with Love &copy; 2017</p>
+      </div>
+    </footer> -->
   </body>
 </html>

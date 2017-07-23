@@ -1,11 +1,300 @@
+/* Variables */
+
+$button-primary: rgb(0, 110, 255);
+$button-hover: rgb(52, 139, 255);
+
+
+
 body {
-  margin: 0;
-  padding: 0;
+  font-family: 'Open Sans', sans-serif;
 }
 
+// --------------- home ------------------ //
+
 #main {
-  background: #ece;
-  h3 {
+  max-width: 100%;
+  height: 600px;
+  padding: 0 3em 2em 3em;
+  margin: 0;
+  background: url('../img/main.jpg') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white;
+  position: relative;
+    &:before {
+    content: '';
+  	position: absolute;
+  	top: 0;
+  	right: 0;
+  	bottom: 0;
+  	left: 0;
+    background: rgb(2, 11, 22);
+  	opacity: .6;
+    z-index: 0;
+    }
+  .wrapper {
     margin: 0;
+    position: relative;
+    header {
+      height: 43px;
+      color: #fff;
+      display: flex;
+      justify-content: space-between;
+      padding: 0 30px;
+      a {
+        margin: 0;
+        padding-top: 27px;
+        color: white;
+        font-size: 1em;
+        font-weight: bold;
+        text-decoration: none;
+        transition: color .2s ease;
+        img {
+          width: 6%;
+          opacity: .7;
+          transition: opacity .2s ease, transform .5s ease;
+          &:hover {
+            opacity: 1;
+            transform: rotate(90deg);
+          }
+        }
+      }
+      ul {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: flex-end;
+        padding-top: 15px;
+        li {
+          list-style: none;
+          a {
+            padding: 0 30px;
+            display: block;
+            color: rgb(222, 222, 222);
+            font-size: .9em;
+            font-weight: bold;
+            text-decoration: none;
+            line-height: 42px;
+            transition: color .2s ease;
+            &:hover {
+              color: white;
+            }
+          }
+        }
+      }
+    }
+
+    .home-content {
+      text-align: center;
+      h1 {
+        margin-top: 4em;
+        font-size: 3em;
+        text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.47);
+      }
+      p {
+        margin-bottom: 8em;
+        font-weight: bold;
+        color: rgb(185, 185, 185);
+        text-shadow: 3px 1px 4px rgba(0, 0, 0, .50);
+      }
+      .primary-button {
+        position: relative;
+        background: $button-primary;
+        color: white;
+        padding: .7em 3.2em;
+        text-decoration: none;
+        border-radius: 3.5px;
+        margin-bottom: 4em;
+        transition: box-shadow .3s ease-in-out, background .2s ease-in-out;
+        -webkit-box-shadow: -4px 10px 25px 5px rgba(0,0,0,0.39);
+           -moz-box-shadow: -4px 10px 25px 5px rgba(0,0,0,0.39);
+                box-shadow: -4px 10px 25px 5px rgba(0,0,0,0.39);
+        &:hover {
+          background: $button-hover;
+          -webkit-box-shadow: -5px 8px 38px -4px rgba(0,0,0,0.39);
+             -moz-box-shadow: -5px 8px 38px -4px rgba(0,0,0,0.39);
+                  box-shadow: -5px 8px 38px -4px rgba(0,0,0,0.39);
+        }
+      }
+      #scroll {
+        margin-bottom: -3em;
+        position: relative;
+        top: 80px;
+        text-decoration: none;
+        color: white;
+        font-size: .9em;
+        opacity: .6;
+        transition: opacity .2s ease-in-out;
+        &:hover {
+          opacity: 1;
+        }
+      }
+    }
+  }
+}
+
+
+// --------------- services ------------------ //
+
+#services {
+  max-width: 100%;
+  margin: 0;
+  padding: 0 2em 2em 2em;
+  .wrapper {
+    margin: 0;
+    width: 100%;
+    h2 {
+      text-align: center;
+      margin-top: 0;
+      padding-top: 2em;
+    }
+
+    #cards-container {
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-flex-flow: row wrap;
+      justify-content: space-around;
+      padding: 1em;
+      .card {
+        width: 350px;
+        height: 440px;
+        background: white;
+        margin-top: 3em;
+        border-radius: 3%;
+        box-shadow: 3px 3px 40px 0px rgba(46,61,73,0.3);
+        transition: box-shadow .2s ease-in-out;
+        &:hover {
+          cursor: pointer;
+          box-shadow: 3px 3px 20px 0px rgba(46,61,73,0.2);
+        }
+        .card-img {
+          // position: relative;
+          // display: block;
+          overflow: hidden;
+          width: 100%;
+          height: 190px;
+          margin: 0;
+          padding: 0;
+          border-top-right-radius: 3%;
+          border-top-left-radius: 3%;
+          img {
+            width: 100%;
+            border-top-right-radius: 3%;
+            border-top-left-radius: 3%;
+            position: relative;
+            bottom: 8px;
+          }
+        }
+        .card-content {
+          width: 80%;
+          padding: 1em;
+          h1 {
+            color: rgb(52, 52, 52);
+            font-size: 1.4em;
+            padding-top: .3em;
+            padding-left: .6em;
+            text-align: left;
+          }
+          p {
+            color: rgb(142, 142, 142);
+            font-size: .8em;
+            margin-top: 7.6em;
+            padding-top: .3em;
+            padding-left: 1em;
+          }
+        }
+      }
+
+
+      // cards color overlays
+
+      .web-dev .card-img {
+        background: rgb(55, 249, 255);
+        filter: contrast(120%);
+        filter: brightness(110%);
+        img {
+          opacity: .5;
+        }
+      }
+
+      .web-des .card-img {
+        background: rgb(255, 52, 52);
+        filter: brightness(115%);
+        img {
+          opacity: .5;
+        }
+      }
+
+      .psd .card-img {
+        background: rgb(255, 243, 84);
+        filter: contrast(120%);
+        filter: brightness(120%);
+        img {
+          opacity: .5;
+        }
+      }
+
+      .res-des .card-img {
+        background: rgb(31, 100, 255);
+        filter: contrast(120%);
+        filter: brightness(150%);
+        img {
+          opacity: .5;
+        }
+      }
+
+      .ui-ux .card-img {
+        background: rgb(0, 255, 56);
+        filter: contrast(110%);
+        filter: brightness(110%);
+        img {
+          opacity: .5;
+        }
+      }
+
+      .e-com .card-img {
+        background: rgb(211, 119, 255);
+        filter: contrast(120%);
+        filter: brightness(110%);
+        img {
+          opacity: .4;
+        }
+      }
+
+    }
+  }
+}
+
+
+
+
+
+
+/* media queries */
+
+@media only screen and (max-width: 600px){
+
+  header {
+    height: 20px;
+    flex-wrap: wrap;
+  }
+
+  header a {
+    flex-basis: 85%;
+    text-align: center;
+  }
+
+  header nav {
+    flex-basis: 75%;
+  }
+
+  header nav ul {
+    width: 85%;
+    justify-content: space-between;
   }
 }
