@@ -1,6 +1,6 @@
 /* Variables */
 
-$button-primary: rgb(53, 127, 224);
+$button-primary: rgb(40, 127, 241);
 $button-hover: rgb(76, 149, 246);
 $header-title-color: rgb(46, 46, 46);
 
@@ -9,11 +9,15 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+// *, *::before, *::after {
+//   box-sizing: border-box;
+// }
+
 // --------------- home ------------------ //
 
 #main {
   max-width: 100%;
-  height: 600px;
+  height: 608px;
   padding: 0 3em 2em 3em;
   margin: 0;
   background: url('../img/main.jpg') no-repeat center center;
@@ -101,12 +105,12 @@ body {
       }
       .primary-button {
         position: relative;
+        margin-bottom: 3em;
+        padding: .75em 3.4em;
         background: $button-primary;
         color: white;
-        padding: .8em 3.4em;
         text-decoration: none;
         border-radius: 3.5px;
-        margin-bottom: 4em;
         transition: box-shadow .3s ease-in-out, background .2s ease-in-out;
         -webkit-box-shadow: -4px 10px 25px 5px rgba(0,0,0,0.39);
            -moz-box-shadow: -4px 10px 25px 5px rgba(0,0,0,0.39);
@@ -215,7 +219,7 @@ body {
       // cards color overlays
 
       .web-dev .card-img {
-        background: rgb(55, 249, 255);
+        background: rgb(0, 247, 255);
         filter: contrast(120%);
         filter: brightness(110%);
         img {
@@ -251,7 +255,7 @@ body {
 
       .ui-ux .card-img {
         background: rgb(0, 255, 56);
-        filter: contrast(110%);
+        // filter: contrast(110%);
         filter: brightness(110%);
         img {
           opacity: .5;
@@ -260,8 +264,8 @@ body {
 
       .e-com .card-img {
         background: rgb(211, 119, 255);
-        filter: contrast(120%);
-        filter: brightness(110%);
+        filter: contrast(140%);
+        filter: brightness(120%);
         img {
           opacity: .4;
         }
@@ -272,7 +276,7 @@ body {
 
 
 .line-seperator {
-  width: 1100px;
+  width: 85%;
   margin-top: 3em;
   margin-bottom: 3em;
   opacity: .3;
@@ -324,10 +328,10 @@ body {
 // --------------- works ------------------ //
 
 #works {
-  width: 100;
+  width: 100%;
   .wrapper {
-    padding-bottom: 3em;
-    margin-bottom: 5em;
+    padding-bottom: .5em;
+    margin-bottom: 3.5em;
     h2 {
       color: $header-title-color;
       text-align: center;
@@ -335,17 +339,19 @@ body {
       margin-bottom: 3em;
     }
     .workbox-container {
-      isplay: -webkit-box;
+      display: -webkit-box;
       display: -moz-box;
       display: -ms-flexbox;
       display: -webkit-flex;
       display: flex;
       -webkit-flex-flow: row wrap;
       justify-content: space-around;
+      flex-wrap: wrap;
       padding: 1em;
       .workbox {
         width: 350px;
         height: 240px;
+        margin-bottom: 2em;
         img {
           width: 100%;
           border-radius: 3.5px;
@@ -393,7 +399,7 @@ body {
             width: 85%;
             margin: 0 auto;
             font-size: .8em;
-            color: rgb(230, 230, 230);
+            color: rgb(200, 200, 200);
           }
           &:hover {
             opacity: 1;
@@ -403,6 +409,88 @@ body {
     }
   }
 }
+
+
+// --------------- about ------------------ //
+
+#about {
+  width: 100%;
+  background: rgb(34, 129, 254);
+  .wrapper {
+    padding: 1em;
+    margin: 0;
+
+    h2 {
+      margin-top: 1em;
+      padding-bottom: 1em;
+      text-align: center;
+      color: white;
+    }
+
+
+    #about-box {
+      max-width: 1150px;
+      max-height: 100%;
+      background: white;
+      padding: 2em;
+      margin: 0 auto;
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      // box me
+      #me {
+        flex: 1;
+        max-width: 60%;
+        margin: .5em;
+        border: 1px solid red;
+        #header {
+          width: 100%;
+          max-height: 35%;
+          padding: .5em;
+          img {
+            width: 22%;
+            border-radius: 100%;
+          }
+          h1 {
+            position: relative;
+            bottom: 135px;
+            left: 192px;
+            font-weight: lighter;
+            font-size: 1.8em;
+            color: rgb(59, 155, 255);
+            // float: right;
+            // margin-right: 8em;
+            // margin-top: 1.4em;
+          }
+          p {
+            position: relative;
+            bottom: 145px;
+            left: 192px;
+            font-size: .9em;
+            color: rgb(116, 184, 255);
+          }
+        }
+      }
+      //box future
+      #future {
+        flex: 1;
+        max-width: 40%;
+        border: 1px orange solid;
+      }
+    }
+
+
+
+  }
+}
+
+
+
+
 
 
 
