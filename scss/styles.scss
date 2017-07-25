@@ -8,13 +8,13 @@ $header-title-color: rgb(46, 46, 46);
 // custom scrollbar
 
 ::-webkit-scrollbar {
-  width: 12px;
-  background: rgb(35, 38, 46);
+  width: 10px;
+  background: rgb(24, 24, 27);
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgb(114, 114, 116);
-  border-radius: 55px;
+  background: rgb(148, 148, 148);
+  border-radius: 50px;
   box-shadow:0px 0px 25px rgb(43, 42, 42);
 }
 
@@ -486,9 +486,6 @@ body {
             font-weight: lighter;
             font-size: 1.8em;
             color: rgb(59, 155, 255);
-            // float: right;
-            // margin-right: 8em;
-            // margin-top: 1.4em;
           }
           p {
             position: relative;
@@ -569,6 +566,7 @@ body {
       margin-top: 0;
       font-size: 3em;
       font-weight: normal;
+      text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.20);
     }
     p {
       font-size: 1.1em;
@@ -595,6 +593,7 @@ body {
                 box-shadow: -5px 8px 38px -4px rgba(0,0,0,0.39);
       }
     }
+
   }
 }
 

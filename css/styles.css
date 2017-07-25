@@ -1,11 +1,11 @@
 /* Variables */
 ::-webkit-scrollbar {
-  width: 12px;
-  background: #23262e; }
+  width: 10px;
+  background: #18181b; }
 
 ::-webkit-scrollbar-thumb {
-  background: #727274;
-  border-radius: 55px;
+  background: #949494;
+  border-radius: 50px;
   -webkit-box-shadow: 0px 0px 25px #2b2a2a;
   box-shadow: 0px 0px 25px #2b2a2a; }
 
@@ -512,7 +512,8 @@ body {
     #contact .wrapper h1 {
       margin-top: 0;
       font-size: 3em;
-      font-weight: normal; }
+      font-weight: normal;
+      text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.2); }
     #contact .wrapper p {
       font-size: 1.1em;
       color: #eeeeee; }

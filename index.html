@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ahmet Ömer | Developer</title>
+    <link rel="shortcut icon" type="image/png" href="img/logo-favicon.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -16,7 +17,7 @@
           <header>
               <a href="#home"><img src="img/logo.svg" alt="logo"></a>
               <nav>
-                <ul>
+                <ul id="nav_scroll">
                   <li><a href="#home">Home</a></li>
                   <li><a href="#services">Services</a></li>
                   <li><a href="#works">Works</a></li>
@@ -28,7 +29,7 @@
           <div class="home-content">
             <h1>Hi, I'm Ahmet Ömer, a web developer</h1>
             <p>I'm a 19 years old web developer & designer from Turkey.<br>I create professional websites & web applications, user experience & interfaces.</p>
-            <a class="primary-button" href="#contact">Contact</a>
+            <a class="primary-button" href="#contact" id="button-contact">Contact</a>
             <br>
             <a id="scroll" href="#services">Scroll down to explore <i class="fa fa-angle-down"></i></a>
           </div>
@@ -160,8 +161,28 @@
             <img class="img-hover" src="img/showcase_portfolio_new.jpg" alt="movieone">
             <div class="overlay workbox-content">
               <h3>Portfolio</h3>
-              <p>my current portfolio built front-end technologies.</p>
+              <p>my current portfolio built with front-end technologies.</p>
               <a class="primary-button" href="https://github.com/ahmetomerv/Portfolio">See code</a>
+            </div>
+          </div>
+
+          <div class="workbox simple-portfolio">
+            <img class="img-hover" src="img/showcase_simple-portfolio.jpg" alt="movieone">
+            <div class="overlay workbox-content">
+              <h3>Simple Portfolio</h3>
+              <p>a simple portfolio site I built in my early days as a developer.</p>
+              <a class="primary-button" href="https://ahmetomerv.github.io/A-simple-portfolio-site">See it live</a>
+              <a class="primary-button" href="https://github.com/ahmetomerv/A-simple-portfolio-site">See code</a>
+            </div>
+          </div>
+
+          <div class="workbox simple-portfolio">
+            <img class="img-hover" src="img/showcase_simple-portfolio.jpg" alt="movieone">
+            <div class="overlay workbox-content">
+              <h3>Simple Portfolio</h3>
+              <p>a simple portfolio site I built in my early days as a developer.</p>
+              <a class="primary-button" href="https://ahmetomerv.github.io/A-simple-portfolio-site">See it live</a>
+              <a class="primary-button" href="https://github.com/ahmetomerv/A-simple-portfolio-site">See code</a>
             </div>
           </div>
 
@@ -199,8 +220,8 @@ I consider myself a team player, a good forward striker. I adore football, baske
     <section id="contact">
       <div class="wrapper">
         <h1>Do you want to talk about a new work?</h1>
-        <p>I'm currently open for new project and work oppurtunities.<br> If you want to hire, feel free to get in touch with me.</p>
-        <a href="#" class="primary-button">Contact</a>
+        <p>I'm currently open for new project and work oppurtunities.<br> If you want to hire, feel free to get in touch with me at:</p>
+        <a href="mailto:ahmetomerv@gmail.com" class="primary-button" target="_top">ahmetomerv@gmail.com</a>
       </div>
     </section>
 
@@ -218,10 +239,13 @@ I consider myself a team player, a good forward striker. I adore football, baske
           <a href="https://stackoverflow.com/users/7013259/ahmet-%C3%96mer"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
           <a href="https://codepen.io/ahmetomer/"><i class="fa fa-codepen" aria-hidden="true"></i></a>
         </div>
-        <p>Made in <i class="flag-icon flag-icon-tr"></i> with <i class="fa fa-heart"></i>   &copy; 2017, Ahmet Ömer.</p>
+        <p>Made in <i class="flag-icon flag-icon-tr"></i> with <i class="fa fa-heart"></i>   &copy; 2017, Personal Portfolio of Ahmet Ömer.</p>
       </div>
     </footer>
-
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-localScroll/1.4.0/jquery.localScroll.min.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>
