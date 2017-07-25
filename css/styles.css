@@ -528,6 +528,22 @@ body {
         -moz-box-shadow: -5px 8px 38px -4px rgba(0, 0, 0, 0.39);
         box-shadow: -5px 8px 38px -4px rgba(0, 0, 0, 0.39); }
 
+footer {
+  width: 100%;
+  height: 100%;
+  background: #18212a; }
+  footer .wrapper {
+    padding: 5em 0;
+    text-align: center; }
+    footer .wrapper .social {
+      border: 1px gray solid;
+      padding: 1em; }
+      footer .wrapper .social a img {
+        width: 20px;
+        padding: .5em;
+        -webkit-filter: hue-rotate(90deg);
+        filter: hue-rotate(90deg); }
+
 /* media queries */
 @media only screen and (max-width: 600px) {
   header {
