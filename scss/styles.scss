@@ -5,6 +5,27 @@ $button-hover: rgb(76, 149, 246);
 $header-title-color: rgb(46, 46, 46);
 
 
+// custom scrollbar
+
+::-webkit-scrollbar {
+  width: 12px;
+  background: rgb(35, 38, 46);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(114, 114, 116);
+  border-radius: 55px;
+  box-shadow:0px 0px 25px rgb(43, 42, 42);
+}
+
+
+
+// prevent horizontal scroll
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
 }
@@ -46,18 +67,12 @@ body {
       color: #fff;
       display: flex;
       justify-content: space-between;
-      padding: 0 30px;
       a {
-        margin: 0;
-        padding-top: 27px;
-        color: white;
-        font-size: 1em;
-        font-weight: bold;
-        text-decoration: none;
         transition: color .2s ease;
         img {
+          margin-top: 27px;
           width: 6%;
-          opacity: .7;
+          opacity: .6;
           transition: opacity .2s ease, transform .5s ease;
           &:hover {
             opacity: 1;
@@ -76,7 +91,7 @@ body {
           a {
             padding: 0 30px;
             display: block;
-            color: rgb(222, 222, 222);
+            color: rgb(205, 205, 205);
             font-size: .9em;
             font-weight: bold;
             text-decoration: none;
@@ -133,6 +148,11 @@ body {
         transition: opacity .2s ease-in-out;
         &:hover {
           opacity: .6;
+        }
+        i {
+          position: relative;
+          top: 4px;
+          font-size: 1.8em;
         }
       }
     }
@@ -585,15 +605,35 @@ footer {
   height: 100%;
   background: rgb(24, 33, 42);
   .wrapper {
-    padding: 5em 0;
+    padding: 4em 0;
     text-align: center;
+    img {
+      width: 2%;
+      opacity: .7;
+    }
+    .line-seperator {
+      width: 20%;
+      margin: 2em auto .5em;
+      padding: 0;
+      opacity: .1;
+    }
     .social {
-      border: 1px gray solid;
-      padding: 1em;
-      a img {
-        width: 20px;
-        padding: .5em;
-        filter: hue-rotate(90deg);
+      padding: .4em;
+      i {
+        font-size: 1.3em;
+        color: rgb(122, 122, 122);
+        padding: .5em .3em;
+        transition: color .2s ease-in-out;
+        &:hover {
+          color: rgb(198, 198, 198);
+        }
+      }
+    }
+    p {
+      color: rgb(101, 101, 101);
+      font-size: .8em;
+      i {
+        color: rgb(230, 38, 38);
       }
     }
   }
