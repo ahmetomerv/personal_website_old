@@ -53,8 +53,8 @@ sr.reveal('#what-I-do', {
   distance: '50px'
 });
 
-sr.reveal('#title-about', {
+sr.reveal('#button-contact', {
   duration: 2000,
-  origin: 'bottom',
+  origin: 'top',
   distance: '50px'
 });
