@@ -57,8 +57,9 @@ body {
         -o-transition: color .2s ease;
         transition: color .2s ease; }
         #main .wrapper header a img {
-          margin-top: 27px;
-          width: 6%;
+          margin-top: 23px;
+          margin-left: .5em;
+          width: 35px;
           opacity: .6;
           -webkit-transition: opacity .2s ease, -webkit-transform .5s ease;
           transition: opacity .2s ease, -webkit-transform .5s ease;
@@ -291,7 +292,7 @@ body {
         -webkit-flex: 1;
         -ms-flex: 1;
         flex: 1;
-        max-width: 5%;
+        max-width: 55px;
         padding: 1em 3em; }
     #whatIdo .wrapper .line-seperator {
       width: 40%;
@@ -398,23 +399,24 @@ body {
       text-align: center;
       color: white; }
     #about .wrapper #about-box {
-      max-width: 1180px;
-      max-height: 470px;
+      max-width: 90%;
+      max-height: 100%;
       background: white;
       border-radius: 10px;
-      padding: 2em;
       margin: 0 auto;
+      overflow: hidden;
       display: -webkit-box;
-      display: -moz-box;
-      display: -ms-flexbox;
       display: -webkit-flex;
+      display: -ms-flexbox;
       display: flex;
+      padding: 2em;
       -webkit-flex-wrap: wrap;
       -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-      -webkit-justify-content: space-around;
-      -ms-flex-pack: distribute;
-      justify-content: space-around;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
       -moz-box-shadow: 0 20px 50px -1px rgba(0, 0, 0, 0.47);
       -webkit-box-shadow: 0 20px 50px -1px rgba(0, 0, 0, 0.47);
       box-shadow: 0 20px 50px -1px rgba(0, 0, 0, 0.47); }
@@ -423,61 +425,101 @@ body {
         -webkit-flex: 1;
         -ms-flex: 1;
         flex: 1;
-        max-width: 60%;
-        height: 430px;
-        margin: .5em; }
+        height: 90%;
+        padding: .3em 2em; }
         #about .wrapper #about-box #me #header-me {
           width: 100%;
           max-height: 35%;
           padding: .5em; }
           #about .wrapper #about-box #me #header-me img {
-            width: 22%;
+            width: 8em;
             border-radius: 100%; }
           #about .wrapper #about-box #me #header-me h1 {
-            position: relative;
-            bottom: 135px;
-            left: 192px;
             font-weight: lighter;
             font-size: 1.8em;
             color: #3b9bff; }
           #about .wrapper #about-box #me #header-me p {
-            position: relative;
-            bottom: 235px;
-            left: 180px;
             font-size: .8em;
-            color: #74b8ff; }
+            margin-bottom: 2em;
+            color: #9cc4fb; }
         #about .wrapper #about-box #me p {
-          width: 85%;
-          padding: .8em;
-          margin-top: 7.7em;
+          width: 95%;
           line-height: 1.3;
           font-size: .92em;
-          color: #808c94; }
-      #about .wrapper #about-box #future {
+          color: #919191; }
+      #about .wrapper #about-box #second {
         -webkit-box-flex: 1;
         -webkit-flex: 1;
         -ms-flex: 1;
         flex: 1;
-        max-width: 40%;
-        padding: .5em; }
-        #about .wrapper #about-box #future #header-future {
-          width: 100%;
-          max-height: 35%;
-          padding: .5em; }
-          #about .wrapper #about-box #future #header-future h1 {
-            position: relative;
-            bottom: 120px;
-            left: 180px;
-            font-weight: lighter;
-            font-size: 1.8em;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+        justify-content: space-between; }
+        #about .wrapper #about-box #second #tools {
+          -webkit-box-flex: 1;
+          -webkit-flex: 1;
+          -ms-flex: 1;
+          flex: 1;
+          height: 45%;
+          padding: 0; }
+          #about .wrapper #about-box #second #tools i {
+            font-size: 5em;
+            color: #3897fa; }
+          #about .wrapper #about-box #second #tools h1 {
+            font-size: 1.5em;
             color: #3b9bff; }
-        #about .wrapper #about-box #future p {
-          width: 85%;
-          padding: .8em;
-          margin-top: 7em;
-          line-height: 1.3;
-          font-size: .92em;
-          color: #808c94; }
+          #about .wrapper #about-box #second #tools p {
+            color: #9cc4fb;
+            font-size: .8em; }
+          #about .wrapper #about-box #second #tools .tools-container {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-flex-wrap: wrap;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap; }
+            #about .wrapper #about-box #second #tools .tools-container a {
+              text-decoration: none;
+              color: #61b8ff;
+              font-size: .9em;
+              border: 1px solid #61b8ff;
+              padding: .4em .7em;
+              margin: .1em;
+              border-radius: 4px;
+              letter-spacing: 1px;
+              -webkit-transition: all .1s ease;
+              -o-transition: all .1s ease;
+              transition: all .1s ease; }
+              #about .wrapper #about-box #second #tools .tools-container a:hover {
+                color: #328cd5;
+                border: 1px solid #328cd5; }
+        #about .wrapper #about-box #second #future {
+          height: 45%;
+          padding: 1em .5em;
+          margin-top: 2em; }
+          #about .wrapper #about-box #second #future #header-future {
+            width: 100%; }
+            #about .wrapper #about-box #second #future #header-future img {
+              width: 5em; }
+            #about .wrapper #about-box #second #future #header-future h1 {
+              font-size: 1.5em;
+              color: #3b9bff; }
+          #about .wrapper #about-box #second #future p {
+            width: 100%;
+            line-height: 1.3;
+            font-size: .92em;
+            color: #919191; }
 
 #contact {
   width: 100%;
@@ -511,10 +553,12 @@ body {
     z-index: 44334; }
     #contact .wrapper h1 {
       margin-top: 0;
+      padding: 0 2em;
       font-size: 3em;
       font-weight: normal;
       text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.2); }
     #contact .wrapper p {
+      padding: .5em;
       font-size: 1.1em;
       color: #eeeeee; }
     #contact .wrapper .primary-button {
@@ -549,7 +593,7 @@ footer {
     padding: 4em 0;
     text-align: center; }
     footer .wrapper img {
-      width: 2%;
+      width: 27px;
       opacity: .7; }
     footer .wrapper .line-seperator {
       width: 20%;
@@ -573,8 +617,70 @@ footer {
       footer .wrapper p i {
         color: #e62626; }
 
-/* media queries */
+/* ------------------------------------------------
+   --------------- media queries ------------------
+   ------------------------------------------------ */
+@media only screen and (max-width: 1000px) {
+  body {
+    background: red; } }
+
+@media only screen and (max-width: 950px) {
+  body {
+    background: green; }
+  #main .wrapper .home-content #scroll {
+    top: 40px; }
+  #contact .wrapper h1 {
+    font-size: 2.6em; }
+  #contact .wrapper p {
+    font-size: 1em; } }
+
+@media only screen and (max-width: 830px) {
+  body {
+    background: yellow; }
+  #services .wrapper #cards-container {
+    padding: .2em; }
+    #services .wrapper #cards-container .card {
+      width: 300px;
+      height: 390px;
+      margin-top: 3em; }
+      #services .wrapper #cards-container .card .card-img {
+        overflow: hidden;
+        width: 100%;
+        height: 160px;
+        margin: 0;
+        padding: 0; }
+      #services .wrapper #cards-container .card .card-content {
+        width: 80%;
+        padding: 1em; }
+        #services .wrapper #cards-container .card .card-content h1 {
+          font-size: 1.3em; }
+        #services .wrapper #cards-container .card .card-content p {
+          color: #8e8e8e;
+          margin-top: 5em; }
+  #whatIdo {
+    padding: 0; }
+    #whatIdo .wrapper {
+      padding: 0; }
+      #whatIdo .wrapper .line-seperator {
+        margin: 0 auto; }
+      #whatIdo .wrapper p {
+        font-size: 1.2em; }
+  #works .wrapper {
+    margin-bottom: .3em; }
+    #works .wrapper h2 {
+      margin-bottom: 1.2em; } }
+
+@media only screen and (max-width: 750px) {
+  body {
+    background: gray; }
+  #whatIdo .wrapper .logo-container img {
+    padding: 0 3em; }
+  #whatIdo .wrapper p {
+    padding-bottom: 0; } }
+
 @media only screen and (max-width: 600px) {
+  body {
+    background: pink; }
   header {
     height: 20px;
     -webkit-flex-wrap: wrap;
