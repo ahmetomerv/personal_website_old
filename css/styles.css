@@ -429,19 +429,30 @@ body {
         padding: .3em 2em; }
         #about .wrapper #about-box #me #header-me {
           width: 100%;
-          max-height: 35%;
-          padding: .5em; }
+          height: 100%;
+          padding: .5em .5em 5em;
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-pack: justify;
+          -webkit-justify-content: space-between;
+          -ms-flex-pack: justify;
+          justify-content: space-between; }
           #about .wrapper #about-box #me #header-me img {
             width: 8em;
+            height: 50%;
             border-radius: 100%; }
-          #about .wrapper #about-box #me #header-me h1 {
-            font-weight: lighter;
-            font-size: 1.8em;
-            color: #3b9bff; }
-          #about .wrapper #about-box #me #header-me p {
-            font-size: .8em;
-            margin-bottom: 2em;
-            color: #9cc4fb; }
+          #about .wrapper #about-box #me #header-me .profile-info {
+            width: 60%;
+            display: inline-block; }
+            #about .wrapper #about-box #me #header-me .profile-info h1 {
+              font-weight: lighter;
+              font-size: 1.8em;
+              color: #3b9bff; }
+            #about .wrapper #about-box #me #header-me .profile-info p {
+              font-size: .8em;
+              color: #9cc4fb; }
         #about .wrapper #about-box #me p {
           width: 95%;
           line-height: 1.3;
