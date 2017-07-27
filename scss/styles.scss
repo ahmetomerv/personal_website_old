@@ -484,13 +484,16 @@ body {
           }
           .profile-info {
             width: 60%;
-            display: inline-block;
+            margin-right: 3.5em;
+            padding: 0 1em;
             h1 {
+              margin: 1em 0;
               font-weight: lighter;
               font-size: 1.8em;
               color: rgb(59, 155, 255);
             }
             p {
+              margin-top: -2em;
               font-size: .8em;
               color: rgb(156, 196, 251);
             }
@@ -513,11 +516,11 @@ body {
           flex: 1;
           height: 45%;
           padding: 0;
-          i {
-            font-size: 5em;
-            color: rgb(56, 151, 250);
+          img {
+            width: 5em;
           }
           h1 {
+            margin-bottom: 1.5em;
             font-size: 1.5em;
             color: rgb(59, 155, 255);
           }
@@ -556,12 +559,13 @@ body {
               width: 5em;
             }
             h1 {
+              margin-bottom: 1.5em;
               font-size: 1.5em;
               color: rgb(59, 155, 255);
             }
           }
           p {
-            width: 100%;
+            width: 95%;
             line-height: 1.3;
             font-size: .92em;
             color: rgb(145, 145, 145);

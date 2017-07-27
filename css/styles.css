@@ -445,12 +445,15 @@ body {
             border-radius: 100%; }
           #about .wrapper #about-box #me #header-me .profile-info {
             width: 60%;
-            display: inline-block; }
+            margin-right: 3.5em;
+            padding: 0 1em; }
             #about .wrapper #about-box #me #header-me .profile-info h1 {
+              margin: 1em 0;
               font-weight: lighter;
               font-size: 1.8em;
               color: #3b9bff; }
             #about .wrapper #about-box #me #header-me .profile-info p {
+              margin-top: -2em;
               font-size: .8em;
               color: #9cc4fb; }
         #about .wrapper #about-box #me p {
@@ -483,10 +486,10 @@ body {
           flex: 1;
           height: 45%;
           padding: 0; }
-          #about .wrapper #about-box #second #tools i {
-            font-size: 5em;
-            color: #3897fa; }
+          #about .wrapper #about-box #second #tools img {
+            width: 5em; }
           #about .wrapper #about-box #second #tools h1 {
+            margin-bottom: 1.5em;
             font-size: 1.5em;
             color: #3b9bff; }
           #about .wrapper #about-box #second #tools p {
@@ -524,10 +527,11 @@ body {
             #about .wrapper #about-box #second #future #header-future img {
               width: 5em; }
             #about .wrapper #about-box #second #future #header-future h1 {
+              margin-bottom: 1.5em;
               font-size: 1.5em;
               color: #3b9bff; }
           #about .wrapper #about-box #second #future p {
-            width: 100%;
+            width: 95%;
             line-height: 1.3;
             font-size: .92em;
             color: #919191; }
