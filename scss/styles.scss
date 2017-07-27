@@ -1,8 +1,13 @@
 /* Variables */
 
-$button-primary: rgb(40, 127, 241);
-$button-hover: rgb(76, 149, 246);
+
+$button-primary: #4eb3f9;
+$button-hover: #2f8ed0;
 $header-title-color: rgb(46, 46, 46);
+
+
+// $button-primary: rgb(40, 127, 241);
+// $button-hover: rgb(76, 149, 246);
 
 
 // custom scrollbar
@@ -123,7 +128,7 @@ body {
       .primary-button {
         position: relative;
         margin-bottom: 3em;
-        padding: .75em 3.4em;
+        padding: .8em 3.4em;
         background: $button-primary;
         color: white;
         text-decoration: none;
@@ -469,8 +474,7 @@ body {
         // max-width: 475px;
         flex: 1;
         height: 90%;
-        padding: .3em 2em;
-        // border: 1px red solid;
+        padding: .5em 2em;
         #header-me {
           width: 100%;
           height: 100%;
@@ -512,6 +516,7 @@ body {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        padding: .5em 2em;
         #tools {
           flex: 1;
           height: 45%;

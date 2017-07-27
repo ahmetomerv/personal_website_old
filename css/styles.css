@@ -112,8 +112,8 @@ body {
       #main .wrapper .home-content .primary-button {
         position: relative;
         margin-bottom: 3em;
-        padding: .75em 3.4em;
-        background: #287ff1;
+        padding: .8em 3.4em;
+        background: #4eb3f9;
         color: white;
         text-decoration: none;
         border-radius: 3.5px;
@@ -126,7 +126,7 @@ body {
         -moz-box-shadow: -4px 10px 25px 5px rgba(0, 0, 0, 0.39);
         box-shadow: -4px 10px 25px 5px rgba(0, 0, 0, 0.39); }
         #main .wrapper .home-content .primary-button:hover {
-          background: #4c95f6;
+          background: #2f8ed0;
           -webkit-box-shadow: -5px 8px 38px -4px rgba(0, 0, 0, 0.39);
           -moz-box-shadow: -5px 8px 38px -4px rgba(0, 0, 0, 0.39);
           box-shadow: -5px 8px 38px -4px rgba(0, 0, 0, 0.39); }
@@ -353,7 +353,7 @@ body {
           -o-transition: opacity .3s ease-in-out;
           transition: opacity .3s ease-in-out; }
           #works .wrapper .workbox-container .workbox .workbox-content .primary-button {
-            background: #287ff1;
+            background: #4eb3f9;
             color: white;
             font-size: .9em;
             padding: .7em 1.8em;
@@ -371,7 +371,7 @@ body {
             -moz-box-shadow: -4px 10px 25px 5px rgba(0, 0, 0, 0.39);
             box-shadow: -4px 10px 25px 5px rgba(0, 0, 0, 0.39); }
             #works .wrapper .workbox-container .workbox .workbox-content .primary-button:hover {
-              background: #4c95f6;
+              background: #2f8ed0;
               -webkit-box-shadow: -5px 8px 38px -4px rgba(0, 0, 0, 0.39);
               -moz-box-shadow: -5px 8px 38px -4px rgba(0, 0, 0, 0.39);
               box-shadow: -5px 8px 38px -4px rgba(0, 0, 0, 0.39); }
@@ -426,7 +426,7 @@ body {
         -ms-flex: 1;
         flex: 1;
         height: 90%;
-        padding: .3em 2em; }
+        padding: .5em 2em; }
         #about .wrapper #about-box #me #header-me {
           width: 100%;
           height: 100%;
@@ -478,7 +478,8 @@ body {
         -webkit-box-pack: justify;
         -webkit-justify-content: space-between;
         -ms-flex-pack: justify;
-        justify-content: space-between; }
+        justify-content: space-between;
+        padding: .5em 2em; }
         #about .wrapper #about-box #second #tools {
           -webkit-box-flex: 1;
           -webkit-flex: 1;
@@ -577,7 +578,7 @@ body {
       font-size: 1.1em;
       color: #eeeeee; }
     #contact .wrapper .primary-button {
-      background: #287ff1;
+      background: #4eb3f9;
       color: white;
       font-size: 1em;
       padding: .9em 3.6em;
@@ -595,7 +596,7 @@ body {
       -moz-box-shadow: -4px 10px 25px 5px rgba(0, 0, 0, 0.3);
       box-shadow: -4px 10px 25px 5px rgba(0, 0, 0, 0.3); }
       #contact .wrapper .primary-button:hover {
-        background: #4c95f6;
+        background: #2f8ed0;
         -webkit-box-shadow: -5px 8px 38px -4px rgba(0, 0, 0, 0.39);
         -moz-box-shadow: -5px 8px 38px -4px rgba(0, 0, 0, 0.39);
         box-shadow: -5px 8px 38px -4px rgba(0, 0, 0, 0.39); }
