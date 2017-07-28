@@ -103,9 +103,11 @@ body {
             font-weight: bold;
             text-decoration: none;
             line-height: 42px;
-            transition: color .2s ease;
+            border-radius: 3px;
+            transition: all .2s ease;
             &:hover {
               color: white;
+              background: rgba(255, 255, 255, 0.12);
             }
           }
         }
@@ -890,46 +892,50 @@ footer {
 
   #main {
     .wrapper {
-      margin: 0;
+      margin: 0 auto;
       header {
-        height: 20px;
+        height: 10px;
         color: #fff;
         display: flex;
-        justify-content: space-between;
         flex-direction: column;
+        justify-content: space-between;
         a {
+          padding: 0;
+          margin: 0 auto;
+          transition: color .2s ease;
           img {
-            margin: 1em auto;
-            width: 25px;
+            padding: 0;
+            width: 35px;
+            justify-content: center;
             opacity: .6;
             transition: opacity .2s ease, transform .5s ease;
             &:hover {
+              opacity: 1;
               transform: rotate(0);
             }
           }
         }
         ul {
+          margin: 0;
           padding: 0;
-          flex-direction: row;
-          text-align: center;
-          margin: 0 auto;
+          display: flex;
+          justify-content: center;
+          padding-top: 15px;
           li {
             list-style: none;
-            border-radius: 5px;
-            &:hover {
-              background: rgba(226, 226, 226, 0.2);
-            }
             a {
-              padding: 0 6px;
+              padding: 0 12px;
               display: block;
               color: rgb(205, 205, 205);
               font-size: .9em;
               font-weight: bold;
               text-decoration: none;
-
-              transition: color .2s ease;
+              line-height: 42px;
+              transition: all .2s ease;
+              border-radius: 3px;
               &:hover {
                 color: white;
+                background: rgba(255, 255, 255, 0.15);
               }
             }
           }
@@ -940,16 +946,14 @@ footer {
         text-align: center;
         height: 100%;
         position: relative;
-        top: 185px;
+        top: 120px;
         h1 {
+          margin: 3em 0;
           font-size: 1.5em;
-          text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.47);
         }
         p {
           font-size: .7em;
           font-weight: bold;
-          color: rgb(185, 185, 185);
-          text-shadow: 3px 1px 4px rgba(0, 0, 0, .50);
         }
       }
     }
