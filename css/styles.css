@@ -630,6 +630,12 @@ footer {
         transition: color .2s ease-in-out; }
         footer .wrapper .social i:hover {
           color: #c6c6c6; }
+    footer .wrapper .email {
+      font-size: .8em;
+      color: gray; }
+      footer .wrapper .email i {
+        color: gray;
+        margin-right: .3em; }
     footer .wrapper p {
       color: #656565;
       font-size: .8em; }
@@ -946,4 +952,126 @@ footer {
             #works .wrapper .workbox-container .workbox .workbox-content h3 {
               margin-top: 2em; }
             #works .wrapper .workbox-container .workbox .workbox-content p {
-              font-size: .7em; } }
+              font-size: .7em; }
+  #about {
+    width: 100%;
+    padding: 0; }
+    #about .wrapper {
+      padding: 1em 1em 3.5em 1em;
+      margin: 0; }
+      #about .wrapper h2 {
+        margin-top: 1em;
+        padding-bottom: 1em; }
+      #about .wrapper #about-box {
+        max-width: 90%;
+        max-height: 100%;
+        margin: 0 auto;
+        padding: 1em;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+        justify-content: space-between; }
+        #about .wrapper #about-box #me {
+          -webkit-box-flex: 1;
+          -webkit-flex: 1;
+          -ms-flex: 1;
+          flex: 1;
+          height: 100%;
+          padding: .5em;
+          margin-bottom: 3em; }
+          #about .wrapper #about-box #me #header-me {
+            width: 100%;
+            height: 100%;
+            padding: .5em;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: justify;
+            -webkit-justify-content: space-between;
+            -ms-flex-pack: justify;
+            justify-content: space-between;
+            margin-bottom: 2em; }
+            #about .wrapper #about-box #me #header-me img {
+              width: 5em; }
+            #about .wrapper #about-box #me #header-me .profile-info {
+              width: 100%;
+              margin-right: 0em;
+              padding: 0; }
+              #about .wrapper #about-box #me #header-me .profile-info h1 {
+                margin: 1em .7em;
+                font-weight: lighter;
+                font-size: 1.3em; }
+              #about .wrapper #about-box #me #header-me .profile-info p {
+                margin: -2em 0 0 1.2em;
+                font-size: .6em; }
+          #about .wrapper #about-box #me p {
+            width: 100%;
+            padding: 0 .3em;
+            margin-bottom: -2em;
+            line-height: 1.3;
+            font-size: .81em; }
+        #about .wrapper #about-box #second {
+          -webkit-box-flex: 1;
+          -webkit-flex: 1;
+          -ms-flex: 1;
+          flex: 1;
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+          -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+          flex-direction: column;
+          -webkit-box-pack: justify;
+          -webkit-justify-content: space-between;
+          -ms-flex-pack: justify;
+          justify-content: space-between;
+          padding: .5em 1em; }
+          #about .wrapper #about-box #second #tools {
+            -webkit-box-flex: 1;
+            -webkit-flex: 1;
+            -ms-flex: 1;
+            flex: 1;
+            height: 45%;
+            padding: 0; }
+            #about .wrapper #about-box #second #tools img {
+              width: 5em; }
+            #about .wrapper #about-box #second #tools h1 {
+              margin-bottom: 1.5em;
+              font-size: 1.3em; }
+            #about .wrapper #about-box #second #tools p {
+              font-size: .8em; }
+            #about .wrapper #about-box #second #tools .tools-container {
+              display: -webkit-box;
+              display: -webkit-flex;
+              display: -ms-flexbox;
+              display: flex;
+              -webkit-flex-wrap: wrap;
+              -ms-flex-wrap: wrap;
+              flex-wrap: wrap; }
+              #about .wrapper #about-box #second #tools .tools-container a {
+                text-decoration: none;
+                font-size: .8em;
+                padding: .3em .6em;
+                margin: .1em; }
+          #about .wrapper #about-box #second #future {
+            height: 45%;
+            padding: 1em 0em;
+            margin-top: 2em; }
+            #about .wrapper #about-box #second #future #header-future {
+              width: 100%; }
+              #about .wrapper #about-box #second #future #header-future img {
+                width: 5em; }
+              #about .wrapper #about-box #second #future #header-future h1 {
+                margin-bottom: 1.5em;
+                font-size: 1.3em; }
+            #about .wrapper #about-box #second #future p {
+              width: 100%;
+              line-height: 1.3;
+              font-size: .81em; } }
