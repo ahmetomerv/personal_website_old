@@ -852,113 +852,98 @@ footer {
         #main .wrapper .home-content p {
           font-size: .7em;
           font-weight: bold; }
+  #services .wrapper h2 {
+    padding-bottom: 0;
+    margin-bottom: 0; }
   #services .wrapper #cards-container {
     padding: .2em; }
     #services .wrapper #cards-container .card {
-      width: calc(250px/2);
-      height: calc(350px/2);
+      width: 250px;
+      height: 350px;
       margin-top: 3em; }
       #services .wrapper #cards-container .card .card-img {
         overflow: hidden;
         width: 100%;
-        height: calc(123px/2);
+        height: 130px;
         margin: 0;
         padding: 0; }
       #services .wrapper #cards-container .card .card-content {
         width: 90%;
         padding: .7em .2em; }
         #services .wrapper #cards-container .card .card-content h1 {
-          font-size: .75em; }
+          font-size: 1.3em; }
         #services .wrapper #cards-container .card .card-content p {
           color: #8e8e8e;
-          margin-top: 4.5em;
-          font-size: .4em; }
+          margin-top: 5em; }
+  .line-seperator {
+    padding: 0;
+    margin: 1em auto; }
   #whatIdo {
+    max-width: 100%;
+    margin: 0;
     padding: 0; }
     #whatIdo .wrapper {
-      padding: 0; }
-      #whatIdo .wrapper .logo-container img {
-        padding: 1.5em; }
+      text-align: center; }
+      #whatIdo .wrapper h2 {
+        color: #2e2e2e; }
+      #whatIdo .wrapper .logo-container {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        width: 100%; }
+        #whatIdo .wrapper .logo-container img {
+          -webkit-box-flex: 1;
+          -webkit-flex: 1;
+          -ms-flex: 1;
+          flex: 1;
+          max-width: 40px;
+          padding: 0 1.3em; }
       #whatIdo .wrapper .line-seperator {
-        margin: .5em auto 2em auto; }
+        width: 65%;
+        padding: 0;
+        margin: 0 auto;
+        opacity: .1; }
       #whatIdo .wrapper p {
-        font-size: 1em; }
+        width: 95%;
+        text-align: center;
+        margin: 0 auto;
+        padding: 2em 0;
+        line-height: 1.2;
+        font-size: 1em;
+        color: #919191; }
   #works {
     width: 100%; }
     #works .wrapper {
       width: 90%;
       margin: 0 auto;
-      padding-bottom: 1em;
-      margin-bottom: 3.5em; }
+      padding-bottom: .5em; }
       #works .wrapper h2 {
-        color: #2e2e2e;
         text-align: center;
-        margin-top: -.2em;
-        margin-bottom: 3em; }
+        margin-top: 1em;
+        margin-bottom: 1em; }
       #works .wrapper .workbox-container {
-        display: -webkit-box;
-        display: -webkit-flex;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-flex-flow: row wrap;
-        -webkit-justify-content: space-around;
-        -ms-flex-pack: distribute;
-        justify-content: space-around;
         -webkit-flex-wrap: wrap;
         -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-        -webkit-box-sizing: border-box;
-        box-sizing: border-box; }
+        flex-wrap: wrap; }
         #works .wrapper .workbox-container .workbox {
-          width: 350px;
-          height: 240px; }
-          #works .wrapper .workbox-container .workbox img {
-            width: 100%;
-            border-radius: 3.5px; }
+          width: calc(350px/1.3);
+          height: calc(240px/1.3); }
           #works .wrapper .workbox-container .workbox .workbox-content {
-            width: 350px;
-            height: 240px;
-            text-align: center;
-            position: relative;
-            border-radius: 3.5px;
-            overflow: hidden;
-            bottom: 240px;
-            background: rgba(3, 14, 33, 0.9);
-            color: white;
-            opacity: 0;
-            -webkit-transition: opacity .3s ease-in-out;
-            -o-transition: opacity .3s ease-in-out;
-            transition: opacity .3s ease-in-out; }
+            width: calc(350px/1.3);
+            height: calc(235px/1.3);
+            bottom: calc(237px/1.3);
+            background: rgba(3, 14, 33, 0.9); }
             #works .wrapper .workbox-container .workbox .workbox-content .primary-button {
-              background: #4eb3f9;
-              color: white;
-              font-size: .9em;
-              padding: .7em 1.8em;
-              text-decoration: none;
-              position: relative;
-              top: 50px;
-              margin: 1em;
-              border-radius: 3.5px;
-              -webkit-transition: background .2s ease-in-out, -webkit-box-shadow .3s ease-in-out;
-              transition: background .2s ease-in-out, -webkit-box-shadow .3s ease-in-out;
-              -o-transition: box-shadow .3s ease-in-out, background .2s ease-in-out;
-              transition: box-shadow .3s ease-in-out, background .2s ease-in-out;
-              transition: box-shadow .3s ease-in-out, background .2s ease-in-out, -webkit-box-shadow .3s ease-in-out;
-              -webkit-box-shadow: -4px 10px 25px 5px rgba(0, 0, 0, 0.39);
-              -moz-box-shadow: -4px 10px 25px 5px rgba(0, 0, 0, 0.39);
-              box-shadow: -4px 10px 25px 5px rgba(0, 0, 0, 0.39); }
-              #works .wrapper .workbox-container .workbox .workbox-content .primary-button:hover {
-                background: #2f8ed0;
-                -webkit-box-shadow: -5px 8px 38px -4px rgba(0, 0, 0, 0.39);
-                -moz-box-shadow: -5px 8px 38px -4px rgba(0, 0, 0, 0.39);
-                box-shadow: -5px 8px 38px -4px rgba(0, 0, 0, 0.39); }
-            #works .wrapper .workbox-container .workbox .workbox-content h3 {
-              margin-top: 3em;
-              text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5); }
-            #works .wrapper .workbox-container .workbox .workbox-content p {
-              width: 85%;
-              margin: 0 auto;
               font-size: .8em;
-              color: #c8c8c8; }
-            #works .wrapper .workbox-container .workbox .workbox-content:hover {
-              opacity: 1; } }
+              padding: .7em 1.6em;
+              top: 30px;
+              position: relative; }
+            #works .wrapper .workbox-container .workbox .workbox-content h3 {
+              margin-top: 2em; }
+            #works .wrapper .workbox-container .workbox .workbox-content p {
+              font-size: .7em; } }
