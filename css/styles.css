@@ -764,7 +764,7 @@ footer {
 
 @media only screen and (max-width: 600px) {
   body {
-    background: pink; }
+    background: seagreen; }
   #main .wrapper {
     margin: 0; }
     #main .wrapper header {
@@ -798,19 +798,20 @@ footer {
           transform: rotate(0); }
       #main .wrapper header ul {
         padding: 0;
-        -webkit-box-orient: vertical;
+        -webkit-box-orient: horizontal;
         -webkit-box-direction: normal;
-        -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-        flex-direction: column;
-        text-align: center; }
+        -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        text-align: center;
+        margin: 0 auto; }
         #main .wrapper header ul li {
           list-style: none;
           border-radius: 5px; }
           #main .wrapper header ul li:hover {
             background: rgba(226, 226, 226, 0.2); }
           #main .wrapper header ul li a {
-            padding: 0 30px;
+            padding: 0 6px;
             display: block;
             color: #cdcdcd;
             font-size: .9em;

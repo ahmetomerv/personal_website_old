@@ -885,7 +885,7 @@ footer {
 @media only screen and (max-width: 600px){
 
   body {
-    background: pink;
+    background: seagreen;
   }
 
   #main {
@@ -910,8 +910,9 @@ footer {
         }
         ul {
           padding: 0;
-          flex-direction: column;
+          flex-direction: row;
           text-align: center;
+          margin: 0 auto;
           li {
             list-style: none;
             border-radius: 5px;
@@ -919,7 +920,7 @@ footer {
               background: rgba(226, 226, 226, 0.2);
             }
             a {
-              padding: 0 30px;
+              padding: 0 6px;
               display: block;
               color: rgb(205, 205, 205);
               font-size: .9em;
