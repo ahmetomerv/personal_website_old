@@ -891,8 +891,11 @@ footer {
   }
 
   #main {
+    background: rgb(64, 68, 84);
+    height: 500px;
     .wrapper {
       margin: 0 auto;
+      padding: 0;
       header {
         height: 10px;
         color: #fff;
@@ -944,14 +947,14 @@ footer {
 
       .home-content {
         text-align: center;
-        height: 100%;
         position: relative;
         top: 120px;
         h1 {
-          margin: 3em 0;
+          margin: 2em 0;
           font-size: 1.5em;
         }
         p {
+
           font-size: .7em;
           font-weight: bold;
         }
@@ -963,13 +966,17 @@ footer {
   #services .wrapper #cards-container {
     padding: .2em;
     .card {
-      width: 250px;
-      height: 350px;
+      // width: 250px;
+      // height: 350px;
+      width: calc(250px/2);
+      height: calc(350px/2);
       margin-top: 3em;
       .card-img {
         overflow: hidden;
+        // width: 100%;
+        // height: 130px;
         width: 100%;
-        height: 130px;
+        height: calc(123px/2);
         margin: 0;
         padding: 0;
       }
@@ -977,11 +984,13 @@ footer {
         width: 90%;
         padding: .7em .2em;
         h1 {
-          font-size: 1.3em;
+          // font-size: 1.3em;
+          font-size: .75em;
         }
         p {
           color: rgb(142, 142, 142);
-          margin-top: 5em;
+          margin-top: 4.5em;
+          font-size: .4em;
         }
       }
     }
