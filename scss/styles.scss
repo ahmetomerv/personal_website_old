@@ -743,10 +743,6 @@ footer {
 // tablet - mid 2
 @media only screen and (max-width: 950px) {
 
-  // body {
-  //   background: green;
-  // }
-
   #main .wrapper .home-content #scroll {
     top: 40px;
   }
@@ -761,7 +757,8 @@ footer {
     }
   }
 
-// about //
+// --------------- about ------------------ //
+
   #about {
     width: 100%;
     padding: 0;
@@ -868,6 +865,8 @@ footer {
   }
 
 
+// --------------- contact ------------------ //
+
   #contact {
     .wrapper {
       flex: 1;
@@ -886,9 +885,6 @@ footer {
       }
     }
   }
-
-
-
 }
 
 
@@ -896,9 +892,7 @@ footer {
 // tablet - mid 3
 @media only screen and (max-width: 830px) {
 
-  // body {
-  //   background: yellow;
-  // }
+// --------------- services ------------------ //
 
   #services .wrapper #cards-container {
     padding: .2em;
@@ -927,6 +921,9 @@ footer {
     }
   }
 
+
+// --------------- whatIdo ------------------ //
+
   #whatIdo {
     padding: 0;
     .wrapper {
@@ -940,12 +937,18 @@ footer {
     }
   }
 
+
+// --------------- works ------------------ //
+
   #works .wrapper {
     margin-bottom: .3em;
       h2 {
         margin-bottom: 1.2em;
       }
     }
+
+
+// --------------- about ------------------ //
 
     #about {
       .wrapper {
@@ -979,9 +982,8 @@ footer {
 // tablet - mid 3
 @media only screen and (max-width: 750px) {
 
-  // body {
-  //   background: gray;
-  // }
+
+// --------------- main ------------------ //
 
   #main {
     max-width: 100%;
@@ -1034,6 +1036,9 @@ footer {
     }
   }
 
+
+// --------------- whatIdo ------------------ //
+
   #whatIdo .wrapper {
     .logo-container img {
       padding: 0 3em;
@@ -1048,9 +1053,8 @@ footer {
 // mobile - small
 @media only screen and (max-width: 600px){
 
-  // body {
-  //   background: white;
-  // }
+
+// --------------- main ------------------ //
 
   #main {
     background: rgb(64, 68, 84);
@@ -1123,6 +1127,9 @@ footer {
     }
   }
 
+
+// --------------- services ------------------ //
+
 #services .wrapper h2 {
   padding-bottom: 0;
   margin-bottom: 0;
@@ -1160,6 +1167,9 @@ footer {
     margin: 1em auto;
   }
 
+
+
+// --------------- whatIdo ------------------ //
 
   #whatIdo {
     max-width: 100%;
@@ -1199,6 +1209,8 @@ footer {
   }
 
 
+// --------------- works ------------------ //
+
   #works {
     width: 100%;
     .wrapper {
@@ -1215,12 +1227,19 @@ footer {
         .workbox {
           width: calc(350px/1.3);
           height: calc(240px/1.3);
-
           .workbox-content {
             width: calc(350px/1.3);
             height: calc(235px/1.3);
             bottom: calc(237px/1.3);
             background: rgba(3, 14, 33, .9);
+            .skills-indicator {
+              top: 3%;
+              left: 3%;
+              .skill {
+                padding: .1em .2em;
+                font-size: .5em;
+              }
+            }
             .primary-button {
               font-size: .8em;
               padding: .7em 1.6em;
@@ -1356,6 +1375,8 @@ footer {
   }
 
 
+// --------------- contact ------------------ //
+
   #contact {
     width: 100%;
     height: 500px;
@@ -1378,6 +1399,8 @@ footer {
     }
   }
 
+
+// --------------- footer ------------------ //
 
   footer {
     width: 100%;
