@@ -354,6 +354,26 @@ body {
           -webkit-transition: opacity .3s ease-in-out;
           -o-transition: opacity .3s ease-in-out;
           transition: opacity .3s ease-in-out; }
+          #works .wrapper .workbox-container .workbox .workbox-content .skills-indicator {
+            text-align: left;
+            position: absolute;
+            top: 5%;
+            left: 5%; }
+            #works .wrapper .workbox-container .workbox .workbox-content .skills-indicator .skill {
+              margin: .1em;
+              padding: .1em .4em;
+              font-size: .7em;
+              font-weight: bold;
+              background-color: white;
+              border-radius: 2px; }
+            #works .wrapper .workbox-container .workbox .workbox-content .skills-indicator .html {
+              color: #ffb24d; }
+            #works .wrapper .workbox-container .workbox .workbox-content .skills-indicator .css {
+              color: #5c92f9; }
+            #works .wrapper .workbox-container .workbox .workbox-content .skills-indicator .sass {
+              color: #ff42f8; }
+            #works .wrapper .workbox-container .workbox .workbox-content .skills-indicator .js {
+              color: #ffcd37; }
           #works .wrapper .workbox-container .workbox .workbox-content .primary-button {
             background: #4eb3f9;
             color: white;

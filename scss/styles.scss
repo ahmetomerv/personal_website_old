@@ -5,6 +5,10 @@ $button-primary: #4eb3f9;
 $button-hover: #2f8ed0;
 $header-title-color: rgb(46, 46, 46);
 
+$html-color: rgb(255, 178, 77);
+$css-color: rgb(92, 146, 249);
+$sass-color: rgb(255, 66, 248);
+$js-color: rgb(255, 205, 55);
 
 // $button-primary: rgb(40, 127, 241);
 // $button-hover: rgb(76, 149, 246);
@@ -399,6 +403,32 @@ body {
           color: white;
           opacity: 0;
           transition: opacity .3s ease-in-out;
+          .skills-indicator {
+            text-align: left;
+            position: absolute;
+            top: 5%;
+            left: 5%;
+            .skill {
+              margin: .1em;
+              padding: .1em .4em;
+              font-size: .7em;
+              font-weight: bold;
+              background-color: white;
+              border-radius: 2px;
+            }
+            .html {
+              color: $html-color;
+            }
+            .css {
+              color: $css-color;
+            }
+            .sass {
+              color: $sass-color;
+            }
+            .js {
+              color: $js-color;
+            }
+          }
           .primary-button {
             background: $button-primary;
             color: white;
