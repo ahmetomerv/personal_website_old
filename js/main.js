@@ -11,40 +11,40 @@ sr.reveal('header', {
 });
 
 sr.reveal('.web-dev', {
-  duration: 1500,
-  origin: 'left',
-  distance: '300px'
+  duration: 1000,
+  origin: 'bottom',
+  distance: '50px'
 });
 
 sr.reveal('.web-des', {
-  duration: 1500,
+  duration: 1000,
   origin: 'bottom',
-  distance: '300px'
+  distance: '50px'
 });
 
 sr.reveal('.psd', {
-  duration: 1500,
-  origin: 'right',
-  distance: '300px'
+  duration: 1000,
+  origin: 'bottom',
+  distance: '50px'
 });
 
 
 sr.reveal('.res-des', {
-  duration: 1500,
-  origin: 'left',
-  distance: '300px'
+  duration: 1000,
+  origin: 'bottom',
+  distance: '50px'
 });
 
 sr.reveal('.ui-ux', {
-  duration: 1500,
+  duration: 1000,
   origin: 'bottom',
-  distance: '300px'
+  distance: '50px'
 });
 
 sr.reveal('.e-com', {
-  duration: 1500,
-  origin: 'right',
-  distance: '300px'
+  duration: 1000,
+  origin: 'bottom',
+  distance: '50px'
 });
 
 sr.reveal('#what-I-do', {
@@ -55,6 +55,18 @@ sr.reveal('#what-I-do', {
 
 sr.reveal('#button-contact', {
   duration: 1000,
-  origin: 'top',
+  origin: 'bottom',
   distance: '50px'
+});
+
+sr.reveal('.workbox', {
+  duration: 1500,
+  origin: 'bottom',
+  distance: '50px'
+});
+
+sr.reveal('.tool', {
+  duration: 2000,
+  origin: 'bottom',
+  distance: '100px'
 });
