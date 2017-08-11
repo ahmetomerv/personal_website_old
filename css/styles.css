@@ -426,20 +426,34 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   max-width: 100%;
-  max-height: 100%;
-  padding: 4em 0; }
-  #design h2 {
-    color: white;
-    margin: 0 0 4em 3em; }
-  #design .slider-container {
-    float: right;
-    margin-right: 2em;
-    margin-bottom: 2.4em;
-    max-width: 100%;
-    max-height: 100%; }
-    #design .slider-container img {
-      border-radius: .35em;
-      border: 1px #333333 solid; }
+  max-height: 550px;
+  padding: 2em 0;
+  position: relative; }
+  #design:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #101418;
+    opacity: .97;
+    z-index: 0; }
+  #design .wrapper {
+    position: relative;
+    z-index: 3456; }
+    #design .wrapper h2 {
+      color: white;
+      margin: 0; }
+    #design .wrapper .slider-container {
+      float: right;
+      margin-right: 2em;
+      margin-bottom: 0;
+      max-width: 100%;
+      max-height: 100%; }
+      #design .wrapper .slider-container img {
+        border-radius: .35em;
+        border: 1px #333333 solid; }
 
 #about {
   width: 100%;
