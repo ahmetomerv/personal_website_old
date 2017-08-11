@@ -41,6 +41,16 @@ body {
 //   box-sizing: border-box;
 // }
 
+// clearfix
+.cf:before,
+.cf:after {
+  content: "";
+  display: table;
+}
+.cf:after {
+  clear: both;
+}
+
 
 // --------------- home ------------------ //
 #main {
@@ -466,6 +476,32 @@ body {
   }
 }
 
+// --------------- about ------------------ //
+#design {
+  background-image: url('../img/design-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  max-height: 100%;
+  padding: 4em 0;
+  h2 {
+    color: white;
+    margin: 0 0 4em 3em;
+  }
+  .slider-container {
+    float: right;
+    margin-right: 2em;
+    margin-bottom: 2.4em;
+    max-width: 100%;
+    max-height: 100%;
+    img {
+      border-radius: .35em;
+      border: 1px rgb(51, 51, 51) solid;
+    }
+  }
+}
+
 
 // --------------- about ------------------ //
 #about {
@@ -481,7 +517,6 @@ body {
       text-align: center;
       color: white;
     }
-
 
     #about-box {
       max-width: 90%;
