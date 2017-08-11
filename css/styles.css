@@ -437,14 +437,15 @@ body {
     bottom: 0;
     left: 0;
     background: #101418;
-    opacity: .97;
+    opacity: .8;
     z-index: 0; }
   #design .wrapper {
     position: relative;
     z-index: 3456; }
-    #design .wrapper h2 {
-      color: white;
-      margin: 0; }
+    #design .wrapper .design-content {
+      padding-top: 2em; }
+      #design .wrapper .design-content h2 {
+        color: white; }
     #design .wrapper .slider-container {
       float: right;
       margin-right: 2em;

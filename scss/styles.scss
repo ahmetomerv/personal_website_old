@@ -494,15 +494,17 @@ body {
   bottom: 0;
   left: 0;
   background: rgb(16, 20, 24);
-  opacity: .97;
+  opacity: .8;
   z-index: 0;
   }
   .wrapper {
     position: relative;
     z-index: 3456;
-    h2 {
-      color: white;
-      margin: 0;
+    .design-content {
+      padding-top: 2em;
+      h2 {
+        color: white;
+      }
     }
     .slider-container {
       float: right;
