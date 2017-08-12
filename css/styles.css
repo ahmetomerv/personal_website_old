@@ -422,7 +422,7 @@ body {
 
 #design-code {
   width: 100%;
-  height: 500px;
+  height: 100%;
   background: #3a8efc; }
   #design-code .wrapper {
     display: -webkit-box;
@@ -438,14 +438,58 @@ body {
     -ms-flex-direction: column;
     flex-direction: column;
     text-align: center; }
-    #design-code .wrapper .design {
-      -webkit-flex-basis: 50%;
-      -ms-flex-preferred-size: 50%;
-      flex-basis: 50%; }
     #design-code .wrapper .code {
       -webkit-flex-basis: 50%;
       -ms-flex-preferred-size: 50%;
-      flex-basis: 50%; }
+      flex-basis: 50%;
+      padding: 4em .5em;
+      margin: 1em 0;
+      border: 1px black dotted;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+      #design-code .wrapper .code .code-content {
+        -webkit-flex-basis: 50%;
+        -ms-flex-preferred-size: 50%;
+        flex-basis: 50%; }
+      #design-code .wrapper .code .code-icon {
+        -webkit-flex-basis: 50%;
+        -ms-flex-preferred-size: 50%;
+        flex-basis: 50%; }
+        #design-code .wrapper .code .code-icon i {
+          font-size: 10em;
+          color: white;
+          text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2); }
+    #design-code .wrapper .design {
+      -webkit-flex-basis: 50%;
+      -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+      padding: 4em .5em;
+      margin: 1em 0;
+      border: 1px red solid;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+      #design-code .wrapper .design .design-content {
+        -webkit-flex-basis: 50%;
+        -ms-flex-preferred-size: 50%;
+        flex-basis: 50%; }
+      #design-code .wrapper .design .design-icon {
+        -webkit-flex-basis: 50%;
+        -ms-flex-preferred-size: 50%;
+        flex-basis: 50%; }
+        #design-code .wrapper .design .design-icon i {
+          font-size: 10em;
+          color: white;
+          text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2); }
 
 #about {
   width: 100%;
