@@ -439,53 +439,63 @@ body {
     flex-direction: column;
     text-align: center; }
     #design-code .wrapper .code {
-      -webkit-flex-basis: 50%;
-      -ms-flex-preferred-size: 50%;
-      flex-basis: 50%;
-      padding: 4em .5em;
+      -webkit-flex-basis: 45%;
+      -ms-flex-preferred-size: 45%;
+      flex-basis: 45%;
+      padding: 5em 0;
       margin: 1em 0;
-      border: 1px black dotted;
       display: -webkit-box;
       display: -webkit-flex;
       display: -ms-flexbox;
       display: flex;
       -webkit-flex-wrap: wrap;
       -ms-flex-wrap: wrap;
-      flex-wrap: wrap; }
+      flex-wrap: wrap;
+      -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+      justify-content: space-around; }
       #design-code .wrapper .code .code-content {
-        -webkit-flex-basis: 50%;
-        -ms-flex-preferred-size: 50%;
-        flex-basis: 50%; }
+        -webkit-flex-basis: 45%;
+        -ms-flex-preferred-size: 45%;
+        flex-basis: 45%;
+        color: white;
+        text-align: left;
+        border: 1px black dotted; }
       #design-code .wrapper .code .code-icon {
-        -webkit-flex-basis: 50%;
-        -ms-flex-preferred-size: 50%;
-        flex-basis: 50%; }
+        -webkit-flex-basis: 45%;
+        -ms-flex-preferred-size: 45%;
+        flex-basis: 45%;
+        border: 1px black dotted; }
         #design-code .wrapper .code .code-icon i {
           font-size: 10em;
           color: white;
           text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2); }
     #design-code .wrapper .design {
-      -webkit-flex-basis: 50%;
-      -ms-flex-preferred-size: 50%;
-      flex-basis: 50%;
-      padding: 4em .5em;
+      -webkit-flex-basis: 45%;
+      -ms-flex-preferred-size: 45%;
+      flex-basis: 45%;
+      padding: 5em 0;
       margin: 1em 0;
-      border: 1px red solid;
       display: -webkit-box;
       display: -webkit-flex;
       display: -ms-flexbox;
       display: flex;
       -webkit-flex-wrap: wrap;
       -ms-flex-wrap: wrap;
-      flex-wrap: wrap; }
+      flex-wrap: wrap;
+      -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+      justify-content: space-around; }
       #design-code .wrapper .design .design-content {
-        -webkit-flex-basis: 50%;
-        -ms-flex-preferred-size: 50%;
-        flex-basis: 50%; }
+        -webkit-flex-basis: 45%;
+        -ms-flex-preferred-size: 45%;
+        flex-basis: 45%;
+        border: 1px red solid; }
       #design-code .wrapper .design .design-icon {
-        -webkit-flex-basis: 50%;
-        -ms-flex-preferred-size: 50%;
-        flex-basis: 50%; }
+        -webkit-flex-basis: 45%;
+        -ms-flex-preferred-size: 45%;
+        flex-basis: 45%;
+        border: 1px red solid; }
         #design-code .wrapper .design .design-icon i {
           font-size: 10em;
           color: white;

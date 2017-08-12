@@ -489,17 +489,22 @@ body {
     text-align: center;
 
     .code {      //code
-      flex-basis: 50%;
-      padding: 4em .5em;
+      flex-basis: 45%;
+      padding: 5em 0;
       margin: 1em 0;
-      border: 1px black dotted;
       display: flex;
       flex-wrap: wrap;
+      justify-content: space-around;
       .code-content {
-        flex-basis: 50%;
+        flex-basis: 45%;
+        color: white;
+        text-align: left;
+
+        border: 1px black dotted;
       }
       .code-icon {
-        flex-basis: 50%;
+        flex-basis: 45%;
+        border: 1px black dotted;
         i {
           font-size: 10em;
           color: white;
@@ -509,17 +514,19 @@ body {
     }
 
     .design {    //design
-      flex-basis: 50%;
-      padding: 4em .5em;
+      flex-basis: 45%;
+      padding: 5em 0;
       margin: 1em 0;
-      border: 1px red solid;
       display: flex;
       flex-wrap: wrap;
+      justify-content: space-around;
       .design-content {
-        flex-basis: 50%;
+        flex-basis: 45%;
+        border: 1px red solid;
       }
       .design-icon {
-        flex-basis: 50%;
+        flex-basis: 45%;
+        border: 1px red solid;
         i {
           font-size: 10em;
           color: white;
