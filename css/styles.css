@@ -621,9 +621,12 @@ body {
               margin-top: -2em;
               font-size: .8em;
               color: #9cc4fb; }
+        #about .wrapper #about-box #me .line-seperator {
+          width: 90%;
+          margin: 1.4em; }
         #about .wrapper #about-box #me p {
           width: 95%;
-          margi-top: 1em;
+          margin-top: 1em;
           line-height: 1.3;
           font-size: .92em;
           color: #919191; }
