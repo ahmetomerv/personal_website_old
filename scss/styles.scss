@@ -1,5 +1,6 @@
-/* Variables */
 
+
+/* colors */
 $button-primary: #4eb3f9;
 $button-hover: #2f8ed0;
 $header-title-color: rgb(46, 46, 46);
@@ -50,7 +51,6 @@ body {
 .cf:after {
   clear: both;
 }
-
 
 // --------------- home ------------------ //
 #main {
@@ -490,47 +490,98 @@ body {
 
     .code {      //code
       flex-basis: 45%;
-      padding: 5em 0;
+      padding: 2em 0;
       margin: 1em 0;
       display: flex;
       flex-wrap: wrap;
       justify-content: space-around;
       .code-content {
-        flex-basis: 45%;
+        flex-basis: 40%;
         color: white;
         text-align: left;
-
-        border: 1px black dotted;
+        // border: 1px black dotted;
+        h2 {
+          font-size: 2em;
+        }
+        p {
+          width: 75%;
+          color: rgba(#ffffff, .7);
+          font-size: .9em;
+          padding-bottom: 3em;
+        }
+        .primary-button {
+          padding: .8em 3.4em;
+          color: white;
+          border-radius: 3.5px;
+          transition: box-shadow .3s ease-in-out, background .2s ease-in-out;
+          box-shadow: -4px 10px 25px 5px rgba(0,0,0,0.10);
+          &:hover {
+            background: $button-hover;
+            box-shadow: -5px 8px 10px 0px rgba(0,0,0,0.15);
+          }
+        }
       }
       .code-icon {
-        flex-basis: 45%;
-        border: 1px black dotted;
+        flex-basis: 40%;
+        // border: 1px black dotted;
         i {
+          margin-top: .1em;
           font-size: 10em;
           color: white;
-          text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.20);
+          text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+          &:hover {
+            color: black;
+            text-shadow: 5px 2px 5px rgba(0, 0, 0, 0.25);
+          }
         }
       }
     }
 
     .design {    //design
       flex-basis: 45%;
-      padding: 5em 0;
+      padding: 2em 0;
       margin: 1em 0;
       display: flex;
       flex-wrap: wrap;
       justify-content: space-around;
       .design-content {
-        flex-basis: 45%;
-        border: 1px red solid;
+        flex-basis: 40%;
+        color: white;
+        text-align: left;
+        // border: 1px red solid;
+        h2 {
+          font-size: 2em;
+        }
+        p {
+          width: 75%;
+          color: rgba(#ffffff, .7);
+          font-size: .9em;
+          padding-bottom: 3em;
+        }
+        .primary-button {
+          padding: .8em 3.4em;
+          color: white;
+          border-radius: 3.5px;
+          transition: box-shadow .3s ease-in-out, background .2s ease-in-out;
+          box-shadow: -4px 10px 25px 5px rgba(0,0,0,0.10);
+          &:hover {
+            background: $button-hover;
+            box-shadow: -5px 8px 10px 0px rgba(0,0,0,0.15);
+          }
+        }
       }
       .design-icon {
-        flex-basis: 45%;
-        border: 1px red solid;
+        flex-basis: 40%;
+        // border: 1px red solid;
         i {
+          margin-top: .1em;
           font-size: 10em;
           color: white;
-          text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.20);
+          text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+          &:hover {
+            color: #2770fc;
+            text-shadow: 5px 2px 5px rgba(0, 0, 0, 0.25);
+          }
         }
       }
     }
@@ -792,7 +843,26 @@ footer {
   }
 }
 
-
+// button
+.primary-button {
+  position: relative;
+  margin-bottom: 3em;
+  padding: .8em 3.4em;
+  background: $button-primary;
+  color: white;
+  text-decoration: none;
+  border-radius: 3.5px;
+  transition: box-shadow .3s ease-in-out, background .2s ease-in-out;
+  -webkit-box-shadow: -4px 10px 25px 5px rgba(0,0,0,0.39);
+     -moz-box-shadow: -4px 10px 25px 5px rgba(0,0,0,0.39);
+          box-shadow: -4px 10px 25px 5px rgba(0,0,0,0.39);
+  &:hover {
+    background: $button-hover;
+    -webkit-box-shadow: -5px 8px 38px -4px rgba(0,0,0,0.39);
+       -moz-box-shadow: -5px 8px 38px -4px rgba(0,0,0,0.39);
+            box-shadow: -5px 8px 38px -4px rgba(0,0,0,0.39);
+  }
+}
 
 /* ------------------------------------------------
    --------------- media queries ------------------

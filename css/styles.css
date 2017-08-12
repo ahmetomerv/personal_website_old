@@ -1,4 +1,4 @@
-/* Variables */
+/* colors */
 ::-webkit-scrollbar {
   width: 10px;
   background: #18181b; }
@@ -442,7 +442,7 @@ body {
       -webkit-flex-basis: 45%;
       -ms-flex-preferred-size: 45%;
       flex-basis: 45%;
-      padding: 5em 0;
+      padding: 2em 0;
       margin: 1em 0;
       display: -webkit-box;
       display: -webkit-flex;
@@ -455,26 +455,50 @@ body {
       -ms-flex-pack: distribute;
       justify-content: space-around; }
       #design-code .wrapper .code .code-content {
-        -webkit-flex-basis: 45%;
-        -ms-flex-preferred-size: 45%;
-        flex-basis: 45%;
+        -webkit-flex-basis: 40%;
+        -ms-flex-preferred-size: 40%;
+        flex-basis: 40%;
         color: white;
-        text-align: left;
-        border: 1px black dotted; }
+        text-align: left; }
+        #design-code .wrapper .code .code-content h2 {
+          font-size: 2em; }
+        #design-code .wrapper .code .code-content p {
+          width: 75%;
+          color: rgba(255, 255, 255, 0.7);
+          font-size: .9em;
+          padding-bottom: 3em; }
+        #design-code .wrapper .code .code-content .primary-button {
+          padding: .8em 3.4em;
+          color: white;
+          border-radius: 3.5px;
+          -webkit-transition: background .2s ease-in-out, -webkit-box-shadow .3s ease-in-out;
+          transition: background .2s ease-in-out, -webkit-box-shadow .3s ease-in-out;
+          -o-transition: box-shadow .3s ease-in-out, background .2s ease-in-out;
+          transition: box-shadow .3s ease-in-out, background .2s ease-in-out;
+          transition: box-shadow .3s ease-in-out, background .2s ease-in-out, -webkit-box-shadow .3s ease-in-out;
+          -webkit-box-shadow: -4px 10px 25px 5px rgba(0, 0, 0, 0.1);
+          box-shadow: -4px 10px 25px 5px rgba(0, 0, 0, 0.1); }
+          #design-code .wrapper .code .code-content .primary-button:hover {
+            background: #2f8ed0;
+            -webkit-box-shadow: -5px 8px 10px 0px rgba(0, 0, 0, 0.15);
+            box-shadow: -5px 8px 10px 0px rgba(0, 0, 0, 0.15); }
       #design-code .wrapper .code .code-icon {
-        -webkit-flex-basis: 45%;
-        -ms-flex-preferred-size: 45%;
-        flex-basis: 45%;
-        border: 1px black dotted; }
+        -webkit-flex-basis: 40%;
+        -ms-flex-preferred-size: 40%;
+        flex-basis: 40%; }
         #design-code .wrapper .code .code-icon i {
+          margin-top: .1em;
           font-size: 10em;
           color: white;
-          text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2); }
+          text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15); }
+          #design-code .wrapper .code .code-icon i:hover {
+            color: black;
+            text-shadow: 5px 2px 5px rgba(0, 0, 0, 0.25); }
     #design-code .wrapper .design {
       -webkit-flex-basis: 45%;
       -ms-flex-preferred-size: 45%;
       flex-basis: 45%;
-      padding: 5em 0;
+      padding: 2em 0;
       margin: 1em 0;
       display: -webkit-box;
       display: -webkit-flex;
@@ -487,19 +511,45 @@ body {
       -ms-flex-pack: distribute;
       justify-content: space-around; }
       #design-code .wrapper .design .design-content {
-        -webkit-flex-basis: 45%;
-        -ms-flex-preferred-size: 45%;
-        flex-basis: 45%;
-        border: 1px red solid; }
+        -webkit-flex-basis: 40%;
+        -ms-flex-preferred-size: 40%;
+        flex-basis: 40%;
+        color: white;
+        text-align: left; }
+        #design-code .wrapper .design .design-content h2 {
+          font-size: 2em; }
+        #design-code .wrapper .design .design-content p {
+          width: 75%;
+          color: rgba(255, 255, 255, 0.7);
+          font-size: .9em;
+          padding-bottom: 3em; }
+        #design-code .wrapper .design .design-content .primary-button {
+          padding: .8em 3.4em;
+          color: white;
+          border-radius: 3.5px;
+          -webkit-transition: background .2s ease-in-out, -webkit-box-shadow .3s ease-in-out;
+          transition: background .2s ease-in-out, -webkit-box-shadow .3s ease-in-out;
+          -o-transition: box-shadow .3s ease-in-out, background .2s ease-in-out;
+          transition: box-shadow .3s ease-in-out, background .2s ease-in-out;
+          transition: box-shadow .3s ease-in-out, background .2s ease-in-out, -webkit-box-shadow .3s ease-in-out;
+          -webkit-box-shadow: -4px 10px 25px 5px rgba(0, 0, 0, 0.1);
+          box-shadow: -4px 10px 25px 5px rgba(0, 0, 0, 0.1); }
+          #design-code .wrapper .design .design-content .primary-button:hover {
+            background: #2f8ed0;
+            -webkit-box-shadow: -5px 8px 10px 0px rgba(0, 0, 0, 0.15);
+            box-shadow: -5px 8px 10px 0px rgba(0, 0, 0, 0.15); }
       #design-code .wrapper .design .design-icon {
-        -webkit-flex-basis: 45%;
-        -ms-flex-preferred-size: 45%;
-        flex-basis: 45%;
-        border: 1px red solid; }
+        -webkit-flex-basis: 40%;
+        -ms-flex-preferred-size: 40%;
+        flex-basis: 40%; }
         #design-code .wrapper .design .design-icon i {
+          margin-top: .1em;
           font-size: 10em;
           color: white;
-          text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2); }
+          text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15); }
+          #design-code .wrapper .design .design-icon i:hover {
+            color: #2770fc;
+            text-shadow: 5px 2px 5px rgba(0, 0, 0, 0.25); }
 
 #about {
   width: 100%;
@@ -754,6 +804,28 @@ footer {
       font-size: .8em; }
       footer .wrapper p i {
         color: #e62626; }
+
+.primary-button {
+  position: relative;
+  margin-bottom: 3em;
+  padding: .8em 3.4em;
+  background: #4eb3f9;
+  color: white;
+  text-decoration: none;
+  border-radius: 3.5px;
+  -webkit-transition: background .2s ease-in-out, -webkit-box-shadow .3s ease-in-out;
+  transition: background .2s ease-in-out, -webkit-box-shadow .3s ease-in-out;
+  -o-transition: box-shadow .3s ease-in-out, background .2s ease-in-out;
+  transition: box-shadow .3s ease-in-out, background .2s ease-in-out;
+  transition: box-shadow .3s ease-in-out, background .2s ease-in-out, -webkit-box-shadow .3s ease-in-out;
+  -webkit-box-shadow: -4px 10px 25px 5px rgba(0, 0, 0, 0.39);
+  -moz-box-shadow: -4px 10px 25px 5px rgba(0, 0, 0, 0.39);
+  box-shadow: -4px 10px 25px 5px rgba(0, 0, 0, 0.39); }
+  .primary-button:hover {
+    background: #2f8ed0;
+    -webkit-box-shadow: -5px 8px 38px -4px rgba(0, 0, 0, 0.39);
+    -moz-box-shadow: -5px 8px 38px -4px rgba(0, 0, 0, 0.39);
+    box-shadow: -5px 8px 38px -4px rgba(0, 0, 0, 0.39); }
 
 /* ------------------------------------------------
    --------------- media queries ------------------
