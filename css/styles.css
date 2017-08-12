@@ -420,42 +420,6 @@ body {
           #works .wrapper .workbox-container .workbox .workbox-content:hover {
             opacity: 1; }
 
-#design {
-  background-image: url("../img/design-bg.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  max-width: 100%;
-  max-height: 550px;
-  padding: 2em 0;
-  position: relative; }
-  #design:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: #101418;
-    opacity: .8;
-    z-index: 0; }
-  #design .wrapper {
-    position: relative;
-    z-index: 3456; }
-    #design .wrapper .design-content {
-      padding-top: 2em; }
-      #design .wrapper .design-content h2 {
-        color: white; }
-    #design .wrapper .slider-container {
-      float: right;
-      margin-right: 2em;
-      margin-bottom: 0;
-      max-width: 100%;
-      max-height: 100%; }
-      #design .wrapper .slider-container img {
-        border-radius: .35em;
-        border: 1px #333333 solid; }
-
 #about {
   width: 100%;
   padding: .5em 0 4.5em 0;
