@@ -1100,7 +1100,8 @@ footer {
 @media only screen and (max-width: 600px) {
   #main {
     background: #404454;
-    height: 500px; }
+    height: 500px;
+    padding: 1em 0 3.5em 0; }
     #main .wrapper {
       margin: 0 auto;
       padding: 0; }
