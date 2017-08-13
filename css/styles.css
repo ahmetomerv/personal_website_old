@@ -116,6 +116,7 @@ body {
         font-weight: bold;
         text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.47); }
       #main .wrapper .home-content p {
+        font-size: .95em;
         margin-bottom: 8em;
         color: #d2d2d2;
         text-shadow: 3px 1px 4px rgba(0, 0, 0, 0.5); }
@@ -1104,21 +1105,21 @@ footer {
       margin: 0 auto;
       padding: 0; }
       #main .wrapper header {
-        height: 10px;
+        height: 5px;
         color: #fff;
         display: -webkit-box;
         display: -webkit-flex;
         display: -ms-flexbox;
         display: flex;
-        -webkit-box-orient: vertical;
+        -webkit-box-orient: horizontal;
         -webkit-box-direction: normal;
-        -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-        flex-direction: column;
-        -webkit-box-pack: justify;
-        -webkit-justify-content: space-between;
-        -ms-flex-pack: justify;
-        justify-content: space-between; }
+        -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center; }
         #main .wrapper header a {
           padding: 0;
           margin: 0 auto;
@@ -1126,6 +1127,7 @@ footer {
           -o-transition: color .2s ease;
           transition: color .2s ease; }
           #main .wrapper header a img {
+            margin-top: 2em;
             padding: 0;
             width: 35px;
             -webkit-box-pack: center;
@@ -1154,11 +1156,14 @@ footer {
           -webkit-justify-content: center;
           -ms-flex-pack: center;
           justify-content: center;
-          padding-top: 15px; }
+          -webkit-flex-wrap: wrap;
+          -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+          padding-top: 20px; }
           #main .wrapper header ul li {
             list-style: none; }
             #main .wrapper header ul li a {
-              padding: 0 12px;
+              padding: 0 20px;
               display: block;
               color: #cdcdcd;
               font-size: .9em;
@@ -1175,13 +1180,17 @@ footer {
       #main .wrapper .home-content {
         text-align: center;
         position: relative;
-        top: 120px; }
+        top: 145px; }
         #main .wrapper .home-content h1 {
-          margin: 2em 0;
-          font-size: 1.5em; }
+          margin: 1em 0;
+          font-size: 2em; }
         #main .wrapper .home-content p {
           font-size: .7em;
-          font-weight: bold; }
+          font-weight: bold;
+          padding-bottom: 9em;
+          width: 75%;
+          text-align: center;
+          margin: 0 auto; }
   #services .wrapper h2 {
     padding-bottom: 0;
     margin-bottom: 0; }
