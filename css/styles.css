@@ -111,13 +111,13 @@ body {
     #main .wrapper .home-content {
       text-align: center; }
       #main .wrapper .home-content h1 {
-        margin-top: 4em;
-        font-size: 3em;
+        margin-top: 3.3em;
+        font-size: 3.5em;
+        font-weight: bold;
         text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.47); }
       #main .wrapper .home-content p {
         margin-bottom: 8em;
-        font-weight: bold;
-        color: #b9b9b9;
+        color: #d2d2d2;
         text-shadow: 3px 1px 4px rgba(0, 0, 0, 0.5); }
       #main .wrapper .home-content .primary-button {
         position: relative;
@@ -461,12 +461,13 @@ body {
         color: white;
         text-align: left; }
         #design-code .wrapper .code .code-content h2 {
-          font-size: 2em; }
+          font-size: 2em;
+          margin-bottom: 1.5em; }
         #design-code .wrapper .code .code-content p {
           width: 75%;
           color: rgba(255, 255, 255, 0.7);
           font-size: .9em;
-          padding-bottom: 3em; }
+          padding-bottom: 1.5em; }
         #design-code .wrapper .code .code-content .primary-button {
           padding: .8em 3.4em;
           color: white;
@@ -517,12 +518,13 @@ body {
         color: white;
         text-align: left; }
         #design-code .wrapper .design .design-content h2 {
+          margin-bottom: 1.5em;
           font-size: 2em; }
         #design-code .wrapper .design .design-content p {
           width: 75%;
           color: rgba(255, 255, 255, 0.7);
           font-size: .9em;
-          padding-bottom: 3em; }
+          padding-bottom: 1.5em; }
         #design-code .wrapper .design .design-content .primary-button {
           padding: .8em 3.4em;
           color: white;
@@ -551,10 +553,28 @@ body {
             color: #2770fc;
             text-shadow: 5px 2px 5px rgba(0, 0, 0, 0.25); }
 
-#section {
+#resume {
   width: 100%; }
-  #section .wrapper {
-    padding: 5em 0; }
+  #resume .wrapper {
+    margin: 0 auto;
+    padding: 5em 0;
+    width: 90%; }
+    #resume .wrapper h1 {
+      margin-bottom: 1.4em;
+      font-weight: bolder; }
+    #resume .wrapper p {
+      width: 50%;
+      margin-top: 2em;
+      padding-bottom: 1.5em;
+      line-height: 1.3;
+      font-size: .92em;
+      color: #919191; }
+    #resume .wrapper .primary-button {
+      -webkit-box-shadow: -4px 10px 25px 5px rgba(0, 0, 0, 0.1);
+      box-shadow: -4px 10px 25px 5px rgba(0, 0, 0, 0.1); }
+      #resume .wrapper .primary-button:hover {
+        -webkit-box-shadow: -5px 8px 10px 0px rgba(0, 0, 0, 0.15);
+        box-shadow: -5px 8px 10px 0px rgba(0, 0, 0, 0.15); }
 
 #about {
   width: 100%;
@@ -619,7 +639,7 @@ body {
             padding: 0 1em; }
             #about .wrapper #about-box #me #header-me .profile-info h1 {
               margin: 1em 0;
-              font-weight: lighter;
+              font-weight: normal;
               font-size: 1.8em;
               color: #3b9bff; }
             #about .wrapper #about-box #me #header-me .profile-info p {
@@ -628,7 +648,7 @@ body {
               color: #9cc4fb; }
         #about .wrapper #about-box #me .line-seperator {
           width: 90%;
-          margin: 1.4em; }
+          margin: 1.4em 0; }
         #about .wrapper #about-box #me p {
           width: 95%;
           margin-top: 1em;
@@ -692,7 +712,8 @@ body {
               transition: all .1s ease; }
               #about .wrapper #about-box #second #tools .tools-container a:hover {
                 color: #328cd5;
-                border: 1px solid #328cd5; }
+                border: 1px solid #328cd5;
+                background: rgba(97, 184, 255, 0.05); }
         #about .wrapper #about-box #second #future {
           height: 45%;
           padding: 1em .5em;
@@ -767,13 +788,11 @@ body {
       transition: box-shadow .3s ease-in-out, background .2s ease-in-out;
       transition: box-shadow .3s ease-in-out, background .2s ease-in-out, -webkit-box-shadow .3s ease-in-out;
       -webkit-box-shadow: -4px 10px 25px 5px rgba(0, 0, 0, 0.3);
-      -moz-box-shadow: -4px 10px 25px 5px rgba(0, 0, 0, 0.3);
       box-shadow: -4px 10px 25px 5px rgba(0, 0, 0, 0.3); }
       #contact .wrapper .primary-button:hover {
         background: #2f8ed0;
-        -webkit-box-shadow: -5px 8px 38px -4px rgba(0, 0, 0, 0.39);
-        -moz-box-shadow: -5px 8px 38px -4px rgba(0, 0, 0, 0.39);
-        box-shadow: -5px 8px 38px -4px rgba(0, 0, 0, 0.39); }
+        -webkit-box-shadow: -5px 8px 10px 0px rgba(0, 0, 0, 0.15);
+        box-shadow: -5px 8px 10px 0px rgba(0, 0, 0, 0.15); }
 
 footer {
   width: 100%;
