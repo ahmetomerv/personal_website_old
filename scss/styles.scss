@@ -1232,10 +1232,12 @@ footer {
       margin: 0 auto;
       padding: 0;
       header {
+        width: 100%;
         height: 5px;
         color: #fff;
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
         justify-content: center;
         a {
           padding: 0;
@@ -1264,7 +1266,7 @@ footer {
           li {
             list-style: none;
             a {
-              padding: 0 20px;
+              padding: 0 25px;
               display: block;
               color: rgb(205, 205, 205);
               font-size: .9em;
@@ -1287,13 +1289,13 @@ footer {
         position: relative;
         top: 145px;
         h1 {
-          margin: 1em 0;
+          margin: 2em 0 1em 0;
           font-size: 2em;
         }
         p {
           font-size: .7em;
           font-weight: bold;
-          padding-bottom: 9em;
+          padding-bottom: 6em;
           width: 75%;
           text-align: center;
           margin: 0 auto;
