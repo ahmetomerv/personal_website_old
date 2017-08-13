@@ -1167,7 +1167,7 @@ footer {
           #main .wrapper header ul li {
             list-style: none; }
             #main .wrapper header ul li a {
-              padding: 0 25px;
+              padding: 0 10px;
               display: block;
               color: #cdcdcd;
               font-size: .9em;
@@ -1184,9 +1184,9 @@ footer {
       #main .wrapper .home-content {
         text-align: center;
         position: relative;
-        top: 145px; }
+        top: 140px; }
         #main .wrapper .home-content h1 {
-          margin: 2em 0 1em 0;
+          margin: 2.4em 0 1em 0;
           font-size: 2em; }
         #main .wrapper .home-content p {
           font-size: .7em;
