@@ -1101,7 +1101,7 @@ footer {
   #main {
     background: #404454;
     height: 500px;
-    padding: 1em 0 3.5em 0; }
+    padding: .4em 0 4em 0; }
     #main .wrapper {
       margin: 0 auto;
       padding: 0; }
@@ -1188,7 +1188,8 @@ footer {
         top: 140px; }
         #main .wrapper .home-content h1 {
           margin: 2.4em 0 1em 0;
-          font-size: 2em; }
+          font-size: 2em;
+          width: 95%; }
         #main .wrapper .home-content p {
           font-size: .7em;
           font-weight: bold;
