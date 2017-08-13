@@ -1296,6 +1296,118 @@ footer {
               margin-top: 2em; }
             #works .wrapper .workbox-container .workbox .workbox-content p {
               font-size: .7em; }
+  #design-code {
+    width: 100%;
+    height: 100%;
+    background: #3a8efc; }
+    #design-code .wrapper {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+      flex-direction: row;
+      text-align: center; }
+      #design-code .wrapper .code {
+        -webkit-flex-basis: 100%;
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+        padding: 1em 0;
+        margin: 0;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+        justify-content: space-around; }
+        #design-code .wrapper .code .code-content {
+          -webkit-flex-basis: 90%;
+          -ms-flex-preferred-size: 90%;
+          flex-basis: 90%;
+          color: white;
+          text-align: left;
+          -webkit-box-ordinal-group: 3;
+          -webkit-order: 2;
+          -ms-flex-order: 2;
+          order: 2; }
+          #design-code .wrapper .code .code-content h2 {
+            font-size: 2em;
+            margin-bottom: 1.5em; }
+          #design-code .wrapper .code .code-content p {
+            width: 75%;
+            color: rgba(255, 255, 255, 0.7);
+            font-size: .9em;
+            padding-bottom: 1.5em; }
+        #design-code .wrapper .code .code-icon {
+          -webkit-box-ordinal-group: 2;
+          -webkit-order: 1;
+          -ms-flex-order: 1;
+          order: 1;
+          -webkit-flex-basis: 90%;
+          -ms-flex-preferred-size: 90%;
+          flex-basis: 90%;
+          text-align: left;
+          margin-top: -4em; }
+          #design-code .wrapper .code .code-icon i {
+            margin-top: 1em;
+            font-size: 8em; }
+      #design-code .wrapper .design {
+        -webkit-flex-basis: 100%;
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+        padding: 1em 0;
+        margin: 2em 0;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+        justify-content: space-around; }
+        #design-code .wrapper .design .design-content {
+          -webkit-flex-basis: 90%;
+          -ms-flex-preferred-size: 90%;
+          flex-basis: 90%;
+          color: white;
+          text-align: left;
+          -webkit-box-ordinal-group: 3;
+          -webkit-order: 2;
+          -ms-flex-order: 2;
+          order: 2; }
+          #design-code .wrapper .design .design-content h2 {
+            margin-bottom: 1.5em;
+            font-size: 2em; }
+          #design-code .wrapper .design .design-content p {
+            width: 75%;
+            color: rgba(255, 255, 255, 0.7);
+            font-size: .9em;
+            padding-bottom: 1.5em; }
+        #design-code .wrapper .design .design-icon {
+          -webkit-flex-basis: 90%;
+          -ms-flex-preferred-size: 90%;
+          flex-basis: 90%;
+          text-align: left;
+          margin-top: 3em;
+          -webkit-box-ordinal-group: 2;
+          -webkit-order: 1;
+          -ms-flex-order: 1;
+          order: 1; }
+          #design-code .wrapper .design .design-icon i {
+            margin-top: .1em;
+            font-size: 8em; }
   #about {
     width: 100%;
     padding: 0; }
