@@ -24,6 +24,9 @@ body {
 .cf:after {
   clear: both; }
 
+/*
+|||||||||||||||||||||||||||||||||  -  home  -  |||||||||||||||||||||||||||||||||
+*/
 #main {
   max-width: 100%;
   height: 608px;
@@ -159,6 +162,9 @@ body {
           top: 4px;
           font-size: 1.8em; }
 
+/*
+|||||||||||||||||||||||||||||||||  -  services  -  |||||||||||||||||||||||||||||||||
+*/
 #services {
   max-width: 100%;
   margin: 0;
@@ -279,6 +285,9 @@ body {
   margin-bottom: 3em;
   opacity: .3; }
 
+/*
+|||||||||||||||||||||||||||||||||  -  what I do  -  |||||||||||||||||||||||||||||||||
+*/
 #whatIdo {
   max-width: 100%;
   margin: 0;
@@ -318,6 +327,9 @@ body {
       font-size: 1.3em;
       color: #919191; }
 
+/*
+|||||||||||||||||||||||||||||||||  -  works  -  |||||||||||||||||||||||||||||||||
+*/
 #works {
   width: 100%; }
   #works .wrapper {
@@ -421,6 +433,9 @@ body {
           #works .wrapper .workbox-container .workbox .workbox-content:hover {
             opacity: 1; }
 
+/*
+|||||||||||||||||||||||||||||||||  -  design & code  -  |||||||||||||||||||||||||||||||||
+*/
 #design-code {
   width: 100%;
   height: 100%;
@@ -554,6 +569,9 @@ body {
             color: #2770fc;
             text-shadow: 5px 2px 5px rgba(0, 0, 0, 0.25); }
 
+/*
+|||||||||||||||||||||||||||||||||  -  resume  -  |||||||||||||||||||||||||||||||||
+*/
 #resume {
   width: 100%; }
   #resume .wrapper {
@@ -583,6 +601,9 @@ body {
         -webkit-box-shadow: -5px 8px 10px 0px rgba(0, 0, 0, 0.15);
         box-shadow: -5px 8px 10px 0px rgba(0, 0, 0, 0.15); }
 
+/*
+|||||||||||||||||||||||||||||||||  -  home  -  |||||||||||||||||||||||||||||||||
+*/
 #about {
   width: 100%;
   padding: .5em 0 4.5em 0;
@@ -739,6 +760,9 @@ body {
             font-size: .92em;
             color: #919191; }
 
+/*
+|||||||||||||||||||||||||||||||||  -  contact  -  |||||||||||||||||||||||||||||||||
+*/
 #contact {
   width: 100%;
   height: 500px;
@@ -803,6 +827,9 @@ body {
         -webkit-box-shadow: -5px 8px 10px 0px rgba(0, 0, 0, 0.15);
         box-shadow: -5px 8px 10px 0px rgba(0, 0, 0, 0.15); }
 
+/*
+|||||||||||||||||||||||||||||||||  -  footer  -  |||||||||||||||||||||||||||||||||
+*/
 footer {
   width: 100%;
   height: 100%;
@@ -867,14 +894,23 @@ footer {
    --------------- media queries ------------------
    ------------------------------------------------ */
 @media only screen and (max-width: 950px) {
+  /*
+  |||||||||||||||||||||||||||||||||  -  home  -  |||||||||||||||||||||||||||||||||
+  */
   #main .wrapper .home-content #scroll {
     top: 40px; }
+  /*
+  |||||||||||||||||||||||||||||||||  -  what I do  -  |||||||||||||||||||||||||||||||||
+  */
   #whatIdo {
     padding: 0; }
     #whatIdo .wrapper {
       padding: 0; }
       #whatIdo .wrapper p {
         padding: 0; }
+  /*
+  |||||||||||||||||||||||||||||||||  -  about  -  |||||||||||||||||||||||||||||||||
+  */
   #about {
     width: 100%;
     padding: 0; }
@@ -977,6 +1013,9 @@ footer {
               width: 100%;
               line-height: 1.3;
               font-size: .81em; }
+  /*
+  |||||||||||||||||||||||||||||||||  -  contact  -  |||||||||||||||||||||||||||||||||
+  */
   #contact .wrapper {
     -webkit-box-flex: 1;
     -webkit-flex: 1;
@@ -995,6 +1034,9 @@ footer {
       font-size: .9em; } }
 
 @media only screen and (max-width: 830px) {
+  /*
+  |||||||||||||||||||||||||||||||||  -  services  -  |||||||||||||||||||||||||||||||||
+  */
   #services .wrapper #cards-container {
     padding: .2em; }
     #services .wrapper #cards-container .card {
@@ -1015,6 +1057,9 @@ footer {
         #services .wrapper #cards-container .card .card-content p {
           color: #8e8e8e;
           margin-top: 5em; }
+  /*
+  |||||||||||||||||||||||||||||||||  -  what I do  -  |||||||||||||||||||||||||||||||||
+  */
   #whatIdo {
     padding: 0; }
     #whatIdo .wrapper {
@@ -1023,10 +1068,16 @@ footer {
         margin: .5em auto 2em auto; }
       #whatIdo .wrapper p {
         font-size: 1.2em; }
+  /*
+  |||||||||||||||||||||||||||||||||  -  works  -  |||||||||||||||||||||||||||||||||
+  */
   #works .wrapper {
     margin-bottom: .3em; }
     #works .wrapper h2 {
       margin-bottom: 1.2em; }
+  /*
+    |||||||||||||||||||||||||||||||||  -  about  -  |||||||||||||||||||||||||||||||||
+    */
   #about .wrapper #about-box {
     max-width: 90%;
     max-height: 100%; }
@@ -1045,6 +1096,9 @@ footer {
             font-size: 1.8em; } }
 
 @media only screen and (max-width: 750px) {
+  /*
+  |||||||||||||||||||||||||||||||||  -  home  -  |||||||||||||||||||||||||||||||||
+  */
   #main {
     max-width: 100%;
     height: 608px;
@@ -1094,12 +1148,18 @@ footer {
           text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.47); }
         #main .wrapper .home-content p {
           font-size: .9em; }
+  /*
+  |||||||||||||||||||||||||||||||||  -  what I do  -  |||||||||||||||||||||||||||||||||
+  */
   #whatIdo .wrapper .logo-container img {
     padding: 0 3em; }
   #whatIdo .wrapper p {
     padding-bottom: 0; } }
 
 @media only screen and (max-width: 600px) {
+  /*
+  |||||||||||||||||||||||||||||||||  -  home  -  |||||||||||||||||||||||||||||||||
+  */
   #main {
     background: #404454;
     height: 500px;
@@ -1199,6 +1259,9 @@ footer {
           width: 75%;
           text-align: center;
           margin: 0 auto; }
+  /*
+  |||||||||||||||||||||||||||||||||  -  services  -  |||||||||||||||||||||||||||||||||
+  */
   #services .wrapper h2 {
     padding-bottom: 0;
     margin-bottom: 0; }
@@ -1225,6 +1288,9 @@ footer {
   .line-seperator {
     padding: 0;
     margin: 1em auto; }
+  /*
+  |||||||||||||||||||||||||||||||||  -  what I do  -  |||||||||||||||||||||||||||||||||
+  */
   #whatIdo {
     max-width: 100%;
     margin: 0;
@@ -1263,6 +1329,9 @@ footer {
         line-height: 1.2;
         font-size: 1em;
         color: #919191; }
+  /*
+  |||||||||||||||||||||||||||||||||  -  works  -  |||||||||||||||||||||||||||||||||
+  */
   #works {
     width: 100%; }
     #works .wrapper {
@@ -1300,6 +1369,9 @@ footer {
               margin-top: 2em; }
             #works .wrapper .workbox-container .workbox .workbox-content p {
               font-size: .7em; }
+  /*
+  |||||||||||||||||||||||||||||||||  -  design & code  -  |||||||||||||||||||||||||||||||||
+  */
   #design-code {
     width: 100%;
     height: 100%; }
@@ -1374,9 +1446,15 @@ footer {
           #design-code .wrapper .design .design-icon i {
             margin-top: .1em;
             font-size: 8em; }
+  /*
+  |||||||||||||||||||||||||||||||||  -  resume  -  |||||||||||||||||||||||||||||||||
+  */
   #resume .wrapper p {
     width: 95%;
     font-size: .9em; }
+  /*
+  |||||||||||||||||||||||||||||||||  -  about  -  |||||||||||||||||||||||||||||||||
+  */
   #about {
     width: 100%;
     padding: 0; }
@@ -1503,6 +1581,9 @@ footer {
               width: 100%;
               line-height: 1.3;
               font-size: .81em; }
+  /*
+  |||||||||||||||||||||||||||||||||  -  contact  -  |||||||||||||||||||||||||||||||||
+  */
   #contact {
     width: 100%;
     height: 400px;
@@ -1526,6 +1607,9 @@ footer {
         width: 90%;
         padding: 1em 0;
         font-size: .9em; }
+  /*
+  |||||||||||||||||||||||||||||||||  -  footer  -  |||||||||||||||||||||||||||||||||
+  */
   footer {
     width: 100%;
     height: 100%; }
