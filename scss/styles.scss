@@ -171,10 +171,15 @@ body {
         &:hover {
           opacity: .6;
         }
+        &:hover i {
+          top: 8px;
+          color: $button-primary;
+        }
         i {
           position: relative;
           top: 4px;
           font-size: 1.8em;
+          transition:  top .3s ease;
         }
       }
     }

@@ -158,10 +158,16 @@ body {
         transition: opacity .2s ease-in-out; }
         #main .wrapper .home-content #scroll:hover {
           opacity: .6; }
+        #main .wrapper .home-content #scroll:hover i {
+          top: 8px;
+          color: #4eb3f9; }
         #main .wrapper .home-content #scroll i {
           position: relative;
           top: 4px;
-          font-size: 1.8em; }
+          font-size: 1.8em;
+          -webkit-transition: top .3s ease;
+          -o-transition: top .3s ease;
+          transition: top .3s ease; }
 
 /*
 |||||||||||||||||||||||||||||||||  -  services  -  |||||||||||||||||||||||||||||||||
