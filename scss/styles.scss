@@ -810,6 +810,8 @@ body {
       text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.20);
     }
     p {
+      margin: 0 auto;
+      width: 65%;
       padding: .5em;
       font-size: 1.1em;
       color: rgb(238, 238, 238);
@@ -1569,7 +1571,9 @@ footer {
             font-size: .81em;
           }
           .line-seperator {
+            margin-left: .3em;
             margin-top: 3em;
+            text-align: left;
           }
         }
 

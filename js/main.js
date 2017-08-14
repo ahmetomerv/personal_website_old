@@ -5,6 +5,7 @@ $('.wrapper').localScroll();
 
 // scroll reveal
 window.sr = ScrollReveal();
+
 sr.reveal('header', {
   duration: 2000,
   origin: 'top'
@@ -13,38 +14,37 @@ sr.reveal('header', {
 sr.reveal('.web-dev', {
   duration: 1000,
   origin: 'bottom',
-  distance: '50px'
+  distance: '100px'
 });
 
 sr.reveal('.web-des', {
   duration: 1000,
   origin: 'bottom',
-  distance: '50px'
+  distance: '100px'
 });
 
 sr.reveal('.psd', {
   duration: 1000,
   origin: 'bottom',
-  distance: '50px'
+  distance: '100px'
 });
-
 
 sr.reveal('.res-des', {
   duration: 1000,
   origin: 'bottom',
-  distance: '50px'
+  distance: '100px'
 });
 
 sr.reveal('.ui-ux', {
   duration: 1000,
   origin: 'bottom',
-  distance: '50px'
+  distance: '100px'
 });
 
 sr.reveal('.e-com', {
   duration: 1000,
   origin: 'bottom',
-  distance: '50px'
+  distance: '100px'
 });
 
 sr.reveal('#what-I-do', {
@@ -70,6 +70,26 @@ sr.reveal('.tool', {
   origin: 'bottom',
   distance: '100px'
 });
+
+sr.reveal('.code-icon', {
+  duration: 2000,
+  origin: 'bottom',
+  distance: '100px'
+});
+
+sr.reveal('.design-icon', {
+  duration: 2000,
+  origin: 'bottom',
+  distance: '100px'
+});
+
+sr.reveal('.logo-container', {
+  duration: 2000,
+  origin: 'bottom',
+  distance: '50px'
+});
+
+
 
 // /* -----  slider  -----*/
 // var i = 0; // start point
