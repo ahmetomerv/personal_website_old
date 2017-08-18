@@ -264,7 +264,7 @@ body {
         margin-top: 3em;
         border-radius: 3%;
         box-shadow: 3px 3px 40px 0px rgba(46,61,73,0.3);
-        transition: box-shadow .2s ease-in-out;
+        transition: box-shadow .2s ease-in-out,;
         &:hover {
           cursor: pointer;
           box-shadow: 3px 3px 20px 0px rgba(46,61,73,0.2);
@@ -444,6 +444,7 @@ body {
       .workbox {
         width: 350px;
         height: 240px;
+        overflow: hidden;
         margin-bottom: 2em;
         img {
           width: 100%;
@@ -529,6 +530,7 @@ body {
     }
   }
 }
+
 
 /*
 |||||||||||||||||||||||||||||||||  -  design & code  -  |||||||||||||||||||||||||||||||||
@@ -859,8 +861,9 @@ body {
     right: 0;
     bottom: 0;
     left: 0;
-    background: rgb(70, 172, 255);
-    opacity: .7;
+    // background: rgb(70, 172, 255);
+    background: rgb(10, 23, 37);
+    opacity: .94;
     z-index: 0;
     }
   .wrapper {

@@ -229,11 +229,11 @@ body {
         border-radius: 3%;
         -webkit-box-shadow: 3px 3px 40px 0px rgba(46, 61, 73, 0.3);
         box-shadow: 3px 3px 40px 0px rgba(46, 61, 73, 0.3);
-        -webkit-transition: -webkit-box-shadow .2s ease-in-out;
-        transition: -webkit-box-shadow .2s ease-in-out;
-        -o-transition: box-shadow .2s ease-in-out;
-        transition: box-shadow .2s ease-in-out;
-        transition: box-shadow .2s ease-in-out, -webkit-box-shadow .2s ease-in-out; }
+        -webkit-transition: -webkit-box-shadow 0.2s ease-in-out;
+        transition: -webkit-box-shadow 0.2s ease-in-out;
+        -o-transition: box-shadow 0.2s ease-in-out;
+        transition: box-shadow 0.2s ease-in-out;
+        transition: box-shadow 0.2s ease-in-out, -webkit-box-shadow 0.2s ease-in-out; }
         #services .wrapper #cards-container .card:hover {
           cursor: pointer;
           -webkit-box-shadow: 3px 3px 20px 0px rgba(46, 61, 73, 0.2);
@@ -390,6 +390,7 @@ body {
       #works .wrapper .workbox-container .workbox {
         width: 350px;
         height: 240px;
+        overflow: hidden;
         margin-bottom: 2em; }
         #works .wrapper .workbox-container .workbox img {
           width: 100%;
@@ -819,8 +820,8 @@ body {
     right: 0;
     bottom: 0;
     left: 0;
-    background: #46acff;
-    opacity: .7;
+    background: #0a1725;
+    opacity: .94;
     z-index: 0; }
   #contact .wrapper {
     -webkit-box-flex: 1;
