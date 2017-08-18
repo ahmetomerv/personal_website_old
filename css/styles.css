@@ -46,8 +46,8 @@ body {
     right: 0;
     bottom: 0;
     left: 0;
-    background: #020b16;
-    opacity: .6;
+    background: #000b16;
+    opacity: .9;
     z-index: 0; }
   #main .wrapper {
     margin: 0;
@@ -101,16 +101,16 @@ body {
             display: block;
             color: #cdcdcd;
             font-size: .9em;
-            font-weight: 600;
+            font-weight: 700;
             text-decoration: none;
             line-height: 42px;
             border-radius: 3px;
+            border-bottom: 1px solid transparent;
             -webkit-transition: all .1s ease;
             -o-transition: all .1s ease;
             transition: all .1s ease; }
             #main .wrapper header ul li a:hover {
-              color: white;
-              background: rgba(255, 255, 255, 0.12); }
+              color: white; }
     #main .wrapper .home-content {
       text-align: center; }
       #main .wrapper .home-content h1 {
@@ -122,7 +122,7 @@ body {
         font-size: .95em;
         font-weight: 400;
         margin-bottom: 8em;
-        color: #d2d2d2;
+        color: #e4e4e4;
         text-shadow: 3px 1px 4px rgba(0, 0, 0, 0.5); }
         #main .wrapper .home-content p .tag-1 {
           color: #00d1ff;

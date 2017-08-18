@@ -64,6 +64,7 @@ body {
   -o-background-size: cover;
   background-size: cover;
   color: white;
+  // background: rgb(50, 54, 70);
   position: relative;
     &:before {
     content: '';
@@ -72,8 +73,9 @@ body {
   	right: 0;
   	bottom: 0;
   	left: 0;
-    background: rgb(2, 11, 22);
-  	opacity: .6;
+    // background: rgb(2, 11, 22);
+    background: rgb(0, 11, 22);
+  	opacity: .9;
     z-index: 0;
     }
   .wrapper {
@@ -111,14 +113,16 @@ body {
             display: block;
             color: rgb(205, 205, 205);
             font-size: .9em;
-            font-weight: 600;
+            font-weight: 700;
             text-decoration: none;
             line-height: 42px;
             border-radius: 3px;
+            border-bottom: 1px solid transparent;
             transition: all .1s ease;
             &:hover {
               color: white;
-              background: rgba(255, 255, 255, 0.12);
+              // background: rgba(255, 255, 255, 0.12);
+              // border-bottom: 1px solid rgba(#ffffff, 0.50);
             }
           }
         }
@@ -137,7 +141,7 @@ body {
         font-size: .95em;
         font-weight: 400;
         margin-bottom: 8em;
-        color: rgb(210, 210, 210);
+        color: rgb(228, 228, 228);
         text-shadow: 3px 1px 4px rgba(0, 0, 0, .50);
         .tag-1 {
           color: #00d1ff;
