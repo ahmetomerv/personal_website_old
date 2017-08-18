@@ -74,8 +74,8 @@ body {
   	bottom: 0;
   	left: 0;
     // background: rgb(2, 11, 22);
-    background: rgb(0, 11, 22);
-  	opacity: .9;
+    background: rgb(10, 23, 37);
+  	opacity: .95;
     z-index: 0;
     }
   .wrapper {
@@ -198,6 +198,7 @@ body {
         }
         #button-contact {
           margin-left: 2em;
+          padding: .8em 3.4em;
         }
       }
 
@@ -1348,7 +1349,8 @@ footer {
             a {
               padding: 0 10px;
               display: block;
-              font-size: .9em;
+              font-size: .8em;
+              font-weight: bold;
               line-height: 42px;
             }
           }
@@ -1359,8 +1361,9 @@ footer {
         position: relative;
         top: 140px;
         h1 {
-          margin: .4em 0 1em 0;
-          font-size: 3em;
+          text-align: center;
+          margin: 2em auto;
+          font-size: 1.4em;
           width: 95%;
         }
         p {
@@ -1371,13 +1374,13 @@ footer {
           margin: 0 auto;
         }
         .home-buttons {
+          margin-top: 3em;
           .primary-button {
-            margin-bottom: 1em;
-            margin-right: 1em;
+            font-size: .9em;
+            margin: 0 .5em;
           }
           #button-contact {
-            margin-bottom: 1em;
-            margin-left: 1em;
+            margin: 0 .5em;
           }
         }
       }
