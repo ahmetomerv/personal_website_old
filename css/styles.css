@@ -116,7 +116,7 @@ body {
       #main .wrapper .home-content h1 {
         margin-top: 3.3em;
         font-size: 3.5em;
-        font-weight: 600;
+        font-weight: bold;
         text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.47); }
       #main .wrapper .home-content p {
         font-size: .95em;
@@ -124,6 +124,27 @@ body {
         margin-bottom: 8em;
         color: #d2d2d2;
         text-shadow: 3px 1px 4px rgba(0, 0, 0, 0.5); }
+        #main .wrapper .home-content p .tag-1 {
+          color: #00d1ff;
+          font-weight: bold; }
+          #main .wrapper .home-content p .tag-1:hover {
+            color: #5ce2ff;
+            cursor: pointer; }
+        #main .wrapper .home-content p .tag-2 {
+          color: #ffcd37; }
+          #main .wrapper .home-content p .tag-2:hover {
+            color: #ffe084; }
+        #main .wrapper .home-content p .tag-3 {
+          color: #ff42f8; }
+          #main .wrapper .home-content p .tag-3:hover {
+            color: #ff8ffb; }
+        #main .wrapper .home-content p .tag-4 {
+          color: #49e0c0; }
+          #main .wrapper .home-content p .tag-4:hover {
+            color: #8aebd7; }
+        #main .wrapper .home-content p .tag-1, #main .wrapper .home-content p .tag-2, #main .wrapper .home-content p .tag-3, #main .wrapper .home-content p .tag-4 {
+          cursor: pointer;
+          font-weight: bold; }
       #main .wrapper .home-content .primary-button {
         position: relative;
         margin-bottom: 3em;

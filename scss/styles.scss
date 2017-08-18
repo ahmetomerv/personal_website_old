@@ -130,7 +130,7 @@ body {
       h1 {
         margin-top: 3.3em;
         font-size: 3.5em;
-        font-weight: 600;
+        font-weight: bold;
         text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.47);
       }
       p {
@@ -139,6 +139,36 @@ body {
         margin-bottom: 8em;
         color: rgb(210, 210, 210);
         text-shadow: 3px 1px 4px rgba(0, 0, 0, .50);
+        .tag-1 {
+          color: #00d1ff;
+          font-weight: bold;
+          &:hover {
+            color: lighten(#00d1ff, 18%);
+            cursor: pointer;
+          }
+        }
+        .tag-2 {
+          color: #ffcd37;
+          &:hover {
+            color: lighten(#ffcd37, 15%);
+          }
+        }
+        .tag-3 {
+          color: #ff42f8;
+          &:hover {
+            color: lighten(#ff42f8, 15%);
+          }
+        }
+        .tag-4 {
+          color: #49e0c0;
+          &:hover {
+            color: lighten(#49e0c0, 15%);
+          }
+        }
+        .tag-1, .tag-2, .tag-3, .tag-4 {
+          cursor: pointer;
+          font-weight: bold;
+        }
       }
       .primary-button {
         position: relative;
