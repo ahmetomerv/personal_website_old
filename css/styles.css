@@ -139,37 +139,41 @@ body {
           #main .wrapper .home-content p .tag-3:hover {
             color: #ff8ffb; }
         #main .wrapper .home-content p .tag-4 {
-          color: #49e0c0; }
+          color: #00ebb9; }
           #main .wrapper .home-content p .tag-4:hover {
-            color: #8aebd7; }
+            color: #39ffd5; }
         #main .wrapper .home-content p .tag-1, #main .wrapper .home-content p .tag-2, #main .wrapper .home-content p .tag-3, #main .wrapper .home-content p .tag-4 {
           cursor: pointer;
           font-weight: bold; }
-      #main .wrapper .home-content .primary-button {
-        position: relative;
-        margin-bottom: 3em;
-        padding: .8em 3.4em;
-        background: #4eb3f9;
-        color: white;
-        text-decoration: none;
-        border-radius: 3.5px;
-        -webkit-transition: background .2s ease-in-out, -webkit-box-shadow .3s ease-in-out;
-        transition: background .2s ease-in-out, -webkit-box-shadow .3s ease-in-out;
-        -o-transition: box-shadow .3s ease-in-out, background .2s ease-in-out;
-        transition: box-shadow .3s ease-in-out, background .2s ease-in-out;
-        transition: box-shadow .3s ease-in-out, background .2s ease-in-out, -webkit-box-shadow .3s ease-in-out;
-        -webkit-box-shadow: -4px 10px 25px 5px rgba(0, 0, 0, 0.39);
-        -moz-box-shadow: -4px 10px 25px 5px rgba(0, 0, 0, 0.39);
-        box-shadow: -4px 10px 25px 5px rgba(0, 0, 0, 0.39); }
-        #main .wrapper .home-content .primary-button:hover {
-          background: #2f8ed0;
-          -webkit-box-shadow: -5px 8px 38px -4px rgba(0, 0, 0, 0.39);
-          -moz-box-shadow: -5px 8px 38px -4px rgba(0, 0, 0, 0.39);
-          box-shadow: -5px 8px 38px -4px rgba(0, 0, 0, 0.39); }
+      #main .wrapper .home-content .home-buttons {
+        margin: 0 auto;
+        text-align: center; }
+        #main .wrapper .home-content .home-buttons .primary-button {
+          margin-bottom: 3em;
+          margin-right: 2em;
+          padding: .8em 3.4em;
+          background: #4eb3f9;
+          color: white;
+          text-decoration: none;
+          border-radius: 3.5px;
+          -webkit-transition: background .2s ease-in-out, -webkit-box-shadow .3s ease-in-out;
+          transition: background .2s ease-in-out, -webkit-box-shadow .3s ease-in-out;
+          -o-transition: box-shadow .3s ease-in-out, background .2s ease-in-out;
+          transition: box-shadow .3s ease-in-out, background .2s ease-in-out;
+          transition: box-shadow .3s ease-in-out, background .2s ease-in-out, -webkit-box-shadow .3s ease-in-out;
+          -webkit-box-shadow: -4px 10px 25px 5px rgba(0, 0, 0, 0.39);
+          box-shadow: -4px 10px 25px 5px rgba(0, 0, 0, 0.39); }
+          #main .wrapper .home-content .home-buttons .primary-button:hover {
+            background: #2f8ed0;
+            -webkit-box-shadow: -5px 8px 38px -4px rgba(0, 0, 0, 0.39);
+            box-shadow: -5px 8px 38px -4px rgba(0, 0, 0, 0.39); }
+        #main .wrapper .home-content .home-buttons #button-contact {
+          margin-left: 2em; }
       #main .wrapper .home-content #scroll {
         margin-bottom: -3em;
         position: relative;
         top: 80px;
+        right: 5px;
         text-decoration: none;
         color: white;
         font-size: .9em;
@@ -910,12 +914,10 @@ footer {
   transition: box-shadow .3s ease-in-out, background .2s ease-in-out;
   transition: box-shadow .3s ease-in-out, background .2s ease-in-out, -webkit-box-shadow .3s ease-in-out;
   -webkit-box-shadow: -4px 10px 25px 5px rgba(0, 0, 0, 0.39);
-  -moz-box-shadow: -4px 10px 25px 5px rgba(0, 0, 0, 0.39);
   box-shadow: -4px 10px 25px 5px rgba(0, 0, 0, 0.39); }
   .primary-button:hover {
     background: #2f8ed0;
     -webkit-box-shadow: -5px 8px 38px -4px rgba(0, 0, 0, 0.39);
-    -moz-box-shadow: -5px 8px 38px -4px rgba(0, 0, 0, 0.39);
     box-shadow: -5px 8px 38px -4px rgba(0, 0, 0, 0.39); }
 
 /* ------------------------------------------------

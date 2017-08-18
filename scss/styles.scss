@@ -143,6 +143,7 @@ body {
         margin-bottom: 8em;
         color: rgb(228, 228, 228);
         text-shadow: 3px 1px 4px rgba(0, 0, 0, .50);
+
         .tag-1 {
           color: #00d1ff;
           font-weight: bold;
@@ -164,39 +165,47 @@ body {
           }
         }
         .tag-4 {
-          color: #49e0c0;
+          color: #00ebb9;
           &:hover {
-            color: lighten(#49e0c0, 15%);
+            color: lighten(#00ebb9, 15%);
           }
         }
         .tag-1, .tag-2, .tag-3, .tag-4 {
           cursor: pointer;
           font-weight: bold;
+          // &:hover {
+          //   text-decoration: underline;
+          // }
         }
       }
-      .primary-button {
-        position: relative;
-        margin-bottom: 3em;
-        padding: .8em 3.4em;
-        background: $button-primary;
-        color: white;
-        text-decoration: none;
-        border-radius: 3.5px;
-        transition: box-shadow .3s ease-in-out, background .2s ease-in-out;
-        -webkit-box-shadow: -4px 10px 25px 5px rgba(0,0,0,0.39);
-           -moz-box-shadow: -4px 10px 25px 5px rgba(0,0,0,0.39);
-                box-shadow: -4px 10px 25px 5px rgba(0,0,0,0.39);
-        &:hover {
-          background: $button-hover;
-          -webkit-box-shadow: -5px 8px 38px -4px rgba(0,0,0,0.39);
-             -moz-box-shadow: -5px 8px 38px -4px rgba(0,0,0,0.39);
-                  box-shadow: -5px 8px 38px -4px rgba(0,0,0,0.39);
+      .home-buttons {
+        margin: 0 auto;
+        text-align: center;
+        .primary-button {
+          margin-bottom: 3em;
+          margin-right: 2em;
+          padding: .8em 3.4em;
+          background: $button-primary;
+          color: white;
+          text-decoration: none;
+          border-radius: 3.5px;
+          transition: box-shadow .3s ease-in-out, background .2s ease-in-out;
+          box-shadow: -4px 10px 25px 5px rgba(0,0,0,0.39);
+          &:hover {
+            background: $button-hover;
+            box-shadow: -5px 8px 38px -4px rgba(0,0,0,0.39);
+          }
+        }
+        #button-contact {
+          margin-left: 2em;
         }
       }
+
       #scroll {
         margin-bottom: -3em;
         position: relative;
         top: 80px;
+        right: 5px;
         text-decoration: none;
         color: white;
         font-size: .9em;
@@ -213,7 +222,7 @@ body {
           position: relative;
           top: 4px;
           font-size: 1.8em;
-          transition:  top .3s ease;
+          transition: top .3s ease;
         }
       }
     }
@@ -951,17 +960,12 @@ footer {
   text-decoration: none;
   border-radius: 3.5px;
   transition: box-shadow .3s ease-in-out, background .2s ease-in-out;
-  -webkit-box-shadow: -4px 10px 25px 5px rgba(0,0,0,0.39);
-     -moz-box-shadow: -4px 10px 25px 5px rgba(0,0,0,0.39);
-          box-shadow: -4px 10px 25px 5px rgba(0,0,0,0.39);
+  box-shadow: -4px 10px 25px 5px rgba(0,0,0,0.39);
   &:hover {
     background: $button-hover;
-    -webkit-box-shadow: -5px 8px 38px -4px rgba(0,0,0,0.39);
-       -moz-box-shadow: -5px 8px 38px -4px rgba(0,0,0,0.39);
-            box-shadow: -5px 8px 38px -4px rgba(0,0,0,0.39);
+    box-shadow: -5px 8px 38px -4px rgba(0,0,0,0.39);
   }
 }
-
 
 
 /* ------------------------------------------------
