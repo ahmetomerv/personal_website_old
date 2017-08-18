@@ -11,37 +11,7 @@ sr.reveal('header', {
   origin: 'top'
 });
 
-sr.reveal('.web-dev', {
-  duration: 1000,
-  origin: 'bottom',
-  distance: '100px'
-});
-
-sr.reveal('.web-des', {
-  duration: 1000,
-  origin: 'bottom',
-  distance: '100px'
-});
-
-sr.reveal('.psd', {
-  duration: 1000,
-  origin: 'bottom',
-  distance: '100px'
-});
-
-sr.reveal('.res-des', {
-  duration: 1000,
-  origin: 'bottom',
-  distance: '100px'
-});
-
-sr.reveal('.ui-ux', {
-  duration: 1000,
-  origin: 'bottom',
-  distance: '100px'
-});
-
-sr.reveal('.e-com', {
+sr.reveal('.card', {
   duration: 1000,
   origin: 'bottom',
   distance: '100px'
@@ -53,7 +23,7 @@ sr.reveal('#what-I-do', {
   distance: '50px'
 });
 
-sr.reveal('#button-contact', {
+sr.reveal('.primary-button', {
   duration: 1000,
   origin: 'bottom',
   distance: '50px'
