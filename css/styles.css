@@ -14,7 +14,7 @@ html, body {
   overflow-x: hidden; }
 
 body {
-  font-family: 'Open Sans', sans-serif; }
+  font-family: 'Nunito', sans-serif; }
 
 .cf:before,
 .cf:after {
@@ -114,9 +114,9 @@ body {
     #main .wrapper .home-content {
       text-align: center; }
       #main .wrapper .home-content h1 {
-        margin-top: 3.3em;
-        font-size: 3.5em;
-        font-weight: bold;
+        margin-top: 2.5em;
+        font-size: 4em;
+        font-weight: 700;
         text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.47); }
       #main .wrapper .home-content p {
         font-size: .95em;
@@ -144,7 +144,7 @@ body {
             color: #39ffd5; }
         #main .wrapper .home-content p .tag-1, #main .wrapper .home-content p .tag-2, #main .wrapper .home-content p .tag-3, #main .wrapper .home-content p .tag-4 {
           cursor: pointer;
-          font-weight: bold; }
+          font-weight: 800; }
       #main .wrapper .home-content .home-buttons {
         margin: 0 auto;
         text-align: center; }
@@ -416,8 +416,8 @@ body {
             #works .wrapper .workbox-container .workbox .workbox-content .skills-indicator .skill {
               margin: .1em;
               padding: .1em .4em;
-              font-size: .7em;
-              font-weight: bold;
+              font-size: .6em;
+              font-weight: 800;
               background-color: white;
               border-radius: 2px;
               -webkit-box-shadow: 5px 5px 20px 1px rgba(0, 0, 0, 0.15);
@@ -448,14 +448,13 @@ body {
             transition: box-shadow .3s ease-in-out, background .2s ease-in-out;
             transition: box-shadow .3s ease-in-out, background .2s ease-in-out, -webkit-box-shadow .3s ease-in-out;
             -webkit-box-shadow: -4px 10px 25px 5px rgba(0, 0, 0, 0.39);
-            -moz-box-shadow: -4px 10px 25px 5px rgba(0, 0, 0, 0.39);
             box-shadow: -4px 10px 25px 5px rgba(0, 0, 0, 0.39); }
             #works .wrapper .workbox-container .workbox .workbox-content .primary-button:hover {
               background: #2f8ed0;
               -webkit-box-shadow: -5px 8px 38px -4px rgba(0, 0, 0, 0.39);
-              -moz-box-shadow: -5px 8px 38px -4px rgba(0, 0, 0, 0.39);
               box-shadow: -5px 8px 38px -4px rgba(0, 0, 0, 0.39); }
           #works .wrapper .workbox-container .workbox .workbox-content h3 {
+            font-weight: 800;
             margin-top: 3em;
             text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5); }
           #works .wrapper .workbox-container .workbox .workbox-content p {
@@ -510,6 +509,7 @@ body {
         color: white;
         text-align: left; }
         #design-code .wrapper .code .code-content h2 {
+          font-weight: 800;
           font-size: 2em;
           margin-bottom: 1.5em; }
         #design-code .wrapper .code .code-content p {
@@ -567,8 +567,9 @@ body {
         color: white;
         text-align: left; }
         #design-code .wrapper .design .design-content h2 {
-          margin-bottom: 1.5em;
-          font-size: 2em; }
+          font-weight: 800;
+          font-size: 2em;
+          margin-bottom: 1.5em; }
         #design-code .wrapper .design .design-content p {
           width: 75%;
           color: rgba(255, 255, 255, 0.7);
@@ -613,7 +614,7 @@ body {
     width: 90%; }
     #resume .wrapper h1 {
       margin-bottom: 1.4em;
-      font-weight: bolder; }
+      font-weight: 800; }
     #resume .wrapper p {
       width: 50%;
       margin-top: 2em;
@@ -700,13 +701,14 @@ body {
             padding: 0 1em; }
             #about .wrapper #about-box #me #header-me .profile-info h1 {
               margin: 1em 0;
-              font-weight: normal;
+              font-weight: 700;
               font-size: 1.8em;
               color: #3b9bff; }
             #about .wrapper #about-box #me #header-me .profile-info p {
-              margin-top: -2em;
               font-size: .8em;
-              color: #9cc4fb; }
+              font-weight: 700;
+              color: #9cc4fb;
+              margin-top: -2em; }
         #about .wrapper #about-box #me .line-seperator {
           width: 90%;
           margin: 1.4em 0; }
@@ -745,8 +747,9 @@ body {
           #about .wrapper #about-box #second #tools img {
             width: 5em; }
           #about .wrapper #about-box #second #tools h1 {
-            margin-bottom: 1.5em;
             font-size: 1.5em;
+            font-weight: 800;
+            margin-bottom: 1.5em;
             color: #3b9bff; }
           #about .wrapper #about-box #second #tools p {
             color: #9cc4fb;
@@ -763,6 +766,7 @@ body {
               text-decoration: none;
               color: #61b8ff;
               font-size: .9em;
+              font-weight: 700;
               border: 1px solid #61b8ff;
               padding: .4em .7em;
               margin: .1em;
@@ -784,8 +788,9 @@ body {
             #about .wrapper #about-box #second #future #header-future img {
               width: 5em; }
             #about .wrapper #about-box #second #future #header-future h1 {
-              margin-bottom: 1.5em;
+              font-weight: 800;
               font-size: 1.5em;
+              margin-bottom: 1.5em;
               color: #3b9bff; }
           #about .wrapper #about-box #second #future p {
             width: 95%;

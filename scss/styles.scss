@@ -33,7 +33,7 @@ html, body {
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Nunito', sans-serif;
 }
 
 // *, *::before, *::after {
@@ -132,9 +132,9 @@ body {
     .home-content {
       text-align: center;
       h1 {
-        margin-top: 3.3em;
-        font-size: 3.5em;
-        font-weight: bold;
+        margin-top: 2.5em;
+        font-size: 4em;
+        font-weight: 700;
         text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.47);
       }
       p {
@@ -172,7 +172,7 @@ body {
         }
         .tag-1, .tag-2, .tag-3, .tag-4 {
           cursor: pointer;
-          font-weight: bold;
+          font-weight: 800;
           // &:hover {
           //   text-decoration: underline;
           // }
@@ -471,8 +471,8 @@ body {
             .skill {
               margin: .1em;
               padding: .1em .4em;
-              font-size: .7em;
-              font-weight: bold;
+              font-size: .6em;
+              font-weight: 800;
               background-color: white;
               border-radius: 2px;
               box-shadow: 5px 5px 20px 1px rgba(#000000, 0.15);
@@ -504,17 +504,14 @@ body {
             margin: 1em;
             border-radius: 3.5px;
             transition: box-shadow .3s ease-in-out, background .2s ease-in-out;
-            -webkit-box-shadow: -4px 10px 25px 5px rgba(0,0,0,0.39);
-               -moz-box-shadow: -4px 10px 25px 5px rgba(0,0,0,0.39);
-                    box-shadow: -4px 10px 25px 5px rgba(0,0,0,0.39);
+            box-shadow: -4px 10px 25px 5px rgba(0,0,0,0.39);
             &:hover {
               background: $button-hover;
-              -webkit-box-shadow: -5px 8px 38px -4px rgba(0,0,0,0.39);
-                 -moz-box-shadow: -5px 8px 38px -4px rgba(0,0,0,0.39);
-                      box-shadow: -5px 8px 38px -4px rgba(0,0,0,0.39);
+              box-shadow: -5px 8px 38px -4px rgba(0,0,0,0.39);
             }
           }
           h3 {
+            font-weight: 800;
             margin-top: 3em;
             text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.50);
           }
@@ -560,6 +557,7 @@ body {
         text-align: left;
         // border: 1px black dotted;
         h2 {
+          font-weight: 800;
           font-size: 2em;
           margin-bottom: 1.5em;
         }
@@ -610,8 +608,9 @@ body {
         text-align: left;
         // border: 1px red solid;
         h2 {
-          margin-bottom: 1.5em;
+          font-weight: 800;
           font-size: 2em;
+          margin-bottom: 1.5em;
         }
         p {
           width: 75%;
@@ -661,7 +660,7 @@ body {
     width: 90%;
     h1 {
       margin-bottom: 1.4em;
-      font-weight: bolder;
+      font-weight: 800;
     }
     p {
       width: 50%;
@@ -743,14 +742,15 @@ body {
             padding: 0 1em;
             h1 {
               margin: 1em 0;
-              font-weight: normal;
+              font-weight: 700;
               font-size: 1.8em;
               color: rgb(59, 155, 255);
             }
             p {
-              margin-top: -2em;
               font-size: .8em;
+              font-weight: 700;
               color: rgb(156, 196, 251);
+              margin-top: -2em;
             }
           }
         }
@@ -781,8 +781,9 @@ body {
             width: 5em;
           }
           h1 {
-            margin-bottom: 1.5em;
             font-size: 1.5em;
+            font-weight: 800;
+            margin-bottom: 1.5em;
             color: rgb(59, 155, 255);
           }
           p {
@@ -796,6 +797,7 @@ body {
               text-decoration: none;
               color: rgb(97, 184, 255);
               font-size: .9em;
+              font-weight: 700;
               border: 1px solid rgb(97, 184, 255);
               padding: .4em .7em;
               margin: .1em;
@@ -821,8 +823,9 @@ body {
               width: 5em;
             }
             h1 {
-              margin-bottom: 1.5em;
+              font-weight: 800;
               font-size: 1.5em;
+              margin-bottom: 1.5em;
               color: rgb(59, 155, 255);
             }
           }
