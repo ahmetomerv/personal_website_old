@@ -1345,42 +1345,40 @@ footer {
           flex-wrap: wrap;
           padding-top: 20px;
           li {
-            list-style: none;
             a {
               padding: 0 10px;
               display: block;
-              color: rgb(205, 205, 205);
               font-size: .9em;
-              font-weight: bold;
-              text-decoration: none;
               line-height: 42px;
-              transition: all .2s ease;
-              border-radius: 3px;
-              &:hover {
-                color: white;
-                background: rgba(255, 255, 255, 0.15);
-              }
             }
           }
         }
       }
 
       .home-content {
-        text-align: center;
         position: relative;
         top: 140px;
         h1 {
-          margin: 2.4em 0 1em 0;
-          font-size: 2em;
+          margin: .4em 0 1em 0;
+          font-size: 3em;
           width: 95%;
         }
         p {
-          font-size: .7em;
+          font-size: .8em;
           font-weight: bold;
           padding-bottom: 6em;
           width: 75%;
-          text-align: center;
           margin: 0 auto;
+        }
+        .home-buttons {
+          .primary-button {
+            margin-bottom: 1em;
+            margin-right: 1em;
+          }
+          #button-contact {
+            margin-bottom: 1em;
+            margin-left: 1em;
+          }
         }
       }
     }

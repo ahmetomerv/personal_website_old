@@ -1257,38 +1257,30 @@ footer {
           -ms-flex-wrap: wrap;
           flex-wrap: wrap;
           padding-top: 20px; }
-          #main .wrapper header ul li {
-            list-style: none; }
-            #main .wrapper header ul li a {
-              padding: 0 10px;
-              display: block;
-              color: #cdcdcd;
-              font-size: .9em;
-              font-weight: bold;
-              text-decoration: none;
-              line-height: 42px;
-              -webkit-transition: all .2s ease;
-              -o-transition: all .2s ease;
-              transition: all .2s ease;
-              border-radius: 3px; }
-              #main .wrapper header ul li a:hover {
-                color: white;
-                background: rgba(255, 255, 255, 0.15); }
+          #main .wrapper header ul li a {
+            padding: 0 10px;
+            display: block;
+            font-size: .9em;
+            line-height: 42px; }
       #main .wrapper .home-content {
-        text-align: center;
         position: relative;
         top: 140px; }
         #main .wrapper .home-content h1 {
-          margin: 2.4em 0 1em 0;
-          font-size: 2em;
+          margin: .4em 0 1em 0;
+          font-size: 3em;
           width: 95%; }
         #main .wrapper .home-content p {
-          font-size: .7em;
+          font-size: .8em;
           font-weight: bold;
           padding-bottom: 6em;
           width: 75%;
-          text-align: center;
           margin: 0 auto; }
+        #main .wrapper .home-content .home-buttons .primary-button {
+          margin-bottom: 1em;
+          margin-right: 1em; }
+        #main .wrapper .home-content .home-buttons #button-contact {
+          margin-bottom: 1em;
+          margin-left: 1em; }
   /*
   |||||||||||||||||||||||||||||||||  -  services  -  |||||||||||||||||||||||||||||||||
   */
