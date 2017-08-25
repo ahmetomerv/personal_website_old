@@ -8,6 +8,7 @@ $css-color:            #5c92f9;
 $sass-color:           #ff42f8;
 $js-color:             #ffcd37;
 $ps-color:             #00d1ff;
+$bs-color:             #563d7c;
 
 // $button-primary:    #287ff1;
 // $button-hover:      #4c95f6;
@@ -492,6 +493,9 @@ body {
             }
             .ps {
               color: $ps-color;
+            }
+            .bootstrap {
+              color: $bs-color;
             }
           }
           .primary-button {
