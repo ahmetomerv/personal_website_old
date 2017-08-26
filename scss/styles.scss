@@ -479,8 +479,6 @@ body {
               background-color: white;
               border-radius: 2px;
               box-shadow: 5px 5px 20px 1px rgba(#000000, 0.15);
-
-
               // tooltips
               & {
                 position: relative;
@@ -499,16 +497,6 @@ body {
                   transform: scale(1) translateY(0);
                 }
               }
-              // &::before {
-              //   border-style: solid;
-              //   border-width: 0 .75em 1em .75em;
-              //   border-color: transparent transparent #3e474e transparent;
-              //   top: 100%;
-              //   margin-left: -.5em;
-              //   content: "";
-              //   transform: scale(.6) translateY(90%);
-              //   transition: all .6s cubic-bezier(.85, -0.18, .31, 1.26), opacity .65s .5s;
-              // }
 
               &:hover::before,
               &:focus::before {
