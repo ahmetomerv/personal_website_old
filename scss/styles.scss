@@ -475,9 +475,65 @@ body {
               padding: .1em .4em;
               font-size: .6em;
               font-weight: 800;
+              cursor: pointer;
               background-color: white;
               border-radius: 2px;
               box-shadow: 5px 5px 20px 1px rgba(#000000, 0.15);
+
+
+              // tooltips
+              & {
+                position: relative;
+                &::before, &::after {
+                  position: absolute;
+                  left: 10%;
+                  opacity: 0;
+                  z-index: -110;
+                }
+                &:hover::before,
+                &:hover::after,
+                &:focus::before,
+                &:focus::after {
+                  opacity: 1;
+                  z-index: 100;
+                  transform: scale(1) translateY(0);
+                }
+              }
+              // &::before {
+              //   border-style: solid;
+              //   border-width: 0 .75em 1em .75em;
+              //   border-color: transparent transparent #3e474e transparent;
+              //   top: 100%;
+              //   margin-left: -.5em;
+              //   content: "";
+              //   transform: scale(.6) translateY(90%);
+              //   transition: all .6s cubic-bezier(.85, -0.18, .31, 1.26), opacity .65s .5s;
+              // }
+
+              &:hover::before,
+              &:focus::before {
+                transition-delay: .2s;
+              }
+              &::after {
+                background: #edeff0;
+                border-radius: .25em;
+                top: 150%;
+                left: 250%;
+                color: #3e474e;
+                font-size: 1.1em;
+                width: 450%;
+                padding: 1em;
+                margin-left: -8.75em;
+                content: attr(data-tip);
+                transition: all .3s ease .2s;
+
+              }
+              &:hover::after,
+              &:focus::after {
+                transition-delay: 0s;
+              }
+
+
             }
             .html {
               color: $html-color;
@@ -497,6 +553,7 @@ body {
             .bootstrap {
               color: $bs-color;
             }
+
           }
           .primary-button {
             background: $button-primary;

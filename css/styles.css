@@ -419,10 +419,46 @@ body {
               padding: .1em .4em;
               font-size: .6em;
               font-weight: 800;
+              cursor: pointer;
               background-color: white;
               border-radius: 2px;
               -webkit-box-shadow: 5px 5px 20px 1px rgba(0, 0, 0, 0.15);
               box-shadow: 5px 5px 20px 1px rgba(0, 0, 0, 0.15); }
+              #works .wrapper .workbox-container .workbox .workbox-content .skills-indicator .skill {
+                position: relative; }
+                #works .wrapper .workbox-container .workbox .workbox-content .skills-indicator .skill::before, #works .wrapper .workbox-container .workbox .workbox-content .skills-indicator .skill::after {
+                  position: absolute;
+                  left: 10%;
+                  opacity: 0;
+                  z-index: -110; }
+                #works .wrapper .workbox-container .workbox .workbox-content .skills-indicator .skill:hover::before, #works .wrapper .workbox-container .workbox .workbox-content .skills-indicator .skill:hover::after, #works .wrapper .workbox-container .workbox .workbox-content .skills-indicator .skill:focus::before, #works .wrapper .workbox-container .workbox .workbox-content .skills-indicator .skill:focus::after {
+                  opacity: 1;
+                  z-index: 100;
+                  -webkit-transform: scale(1) translateY(0);
+                  -ms-transform: scale(1) translateY(0);
+                  transform: scale(1) translateY(0); }
+              #works .wrapper .workbox-container .workbox .workbox-content .skills-indicator .skill:hover::before, #works .wrapper .workbox-container .workbox .workbox-content .skills-indicator .skill:focus::before {
+                -webkit-transition-delay: .2s;
+                -o-transition-delay: .2s;
+                transition-delay: .2s; }
+              #works .wrapper .workbox-container .workbox .workbox-content .skills-indicator .skill::after {
+                background: #edeff0;
+                border-radius: .25em;
+                top: 150%;
+                left: 250%;
+                color: #3e474e;
+                font-size: 1.1em;
+                width: 450%;
+                padding: 1em;
+                margin-left: -8.75em;
+                content: attr(data-tip);
+                -webkit-transition: all .3s ease .2s;
+                -o-transition: all .3s ease .2s;
+                transition: all .3s ease .2s; }
+              #works .wrapper .workbox-container .workbox .workbox-content .skills-indicator .skill:hover::after, #works .wrapper .workbox-container .workbox .workbox-content .skills-indicator .skill:focus::after {
+                -webkit-transition-delay: 0s;
+                -o-transition-delay: 0s;
+                transition-delay: 0s; }
             #works .wrapper .workbox-container .workbox .workbox-content .skills-indicator .html {
               color: #ffb24d; }
             #works .wrapper .workbox-container .workbox .workbox-content .skills-indicator .css {
