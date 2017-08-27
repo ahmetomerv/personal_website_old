@@ -910,13 +910,13 @@ body {
 footer {
   width: 100%;
   height: 100%;
-  background: #18212a; }
+  background: #131a21; }
   footer .wrapper {
     padding: 4em 0;
     text-align: center; }
-    footer .wrapper img {
+    footer .wrapper .logo {
       width: 27px;
-      opacity: .7; }
+      opacity: .4; }
     footer .wrapper .line-seperator {
       width: 20%;
       margin: 2em auto .5em;
