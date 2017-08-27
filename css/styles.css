@@ -943,7 +943,24 @@ footer {
       color: #656565;
       font-size: .8em; }
       footer .wrapper p i {
-        color: #e62626; }
+        color: #E62626;
+        margin: 0 .2em; }
+      footer .wrapper p #heart-icon {
+        -webkit-animation: beat .50s infinite alternate;
+        animation: beat .50s infinite alternate;
+        -webkit-transform-origin: center;
+        -ms-transform-origin: center;
+        transform-origin: center; }
+
+@-webkit-keyframes beat {
+  to {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2); } }
+
+@keyframes beat {
+  to {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2); } }
 
 .primary-button {
   position: relative;

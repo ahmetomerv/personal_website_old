@@ -514,7 +514,6 @@ body {
                 margin-left: -8.75em;
                 content: attr(data-tip);
                 transition: all .3s ease .2s;
-
               }
               &:hover::after,
               &:focus::after {
@@ -867,7 +866,6 @@ body {
           height: 45%;
           padding: 1em .5em;
           margin-top: 2em;
-          // border: 1px seagreen solid;
           #header-future {
             width: 100%;
             img {
@@ -910,7 +908,6 @@ body {
     right: 0;
     bottom: 0;
     left: 0;
-    // background: rgb(70, 172, 255);
     background: rgb(10, 23, 37);
     opacity: .94;
     z-index: 0;
@@ -954,6 +951,7 @@ body {
     }
   }
 }
+
 
 
 /*
@@ -1000,7 +998,15 @@ footer {
       color: rgb(101, 101, 101);
       font-size: .8em;
       i {
-        color: rgb(230, 38, 38);
+        color: #E62626;
+        margin: 0 .2em;
+      }
+      #heart-icon {
+        animation: beat .50s infinite alternate;
+      	transform-origin: center;
+      }
+      @keyframes beat{
+      	to { transform: scale(1.2); }
       }
     }
   }
