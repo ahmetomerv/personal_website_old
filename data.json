@@ -1,0 +1,48 @@
+{
+   "organization":"Lobster",
+   "location":"Austin",
+   "teams":[
+      {
+         "team":"Lobster Tech",
+         "location":"Amsterdam",
+         "members":[
+            {
+               "name":"Ben Samuel",
+               "age":29,
+               "imageUrl":"https://randomuser.me/api/portraits/men/30.jpg"
+            },
+            {
+               "name":"Ana James",
+               "age":39,
+               "imageUrl":"https://randomuser.me/api/portraits/women/68.jpg"
+            },
+            {
+               "name":"Edward Finn",
+               "age":23,
+               "imageUrl":"https://randomuser.me/api/portraits/men/83.jpg"
+            }
+         ]
+      },
+      {
+         "team":"Lobster Ink",
+         "location":"Cape Town",
+         "members":[
+            {
+               "name":"Sam Jones",
+               "age":49,
+               "imageUrl":"https://randomuser.me/api/portraits/women/30.jpg"
+            },
+            {
+               "name":"Helen Anthony",
+               "age":26,
+               "imageUrl":"https://randomuser.me/api/portraits/women/48.jpg"
+            },
+            {
+               "name":"Gregg Best",
+               "age":21,
+               "imageUrl":"https://randomuser.me/api/portraits/men/23.jpg"
+            }
+         ]
+      }
+   ]
+}
