@@ -9,6 +9,8 @@ $sass-color:           #ff42f8;
 $js-color:             #ffcd37;
 $ps-color:             #00d1ff;
 $bs-color:             #563d7c;
+$node-color:           #1cc44e;
+$api-color:            #3a3a3a;
 
 // $button-primary:    #287ff1;
 // $button-hover:      #4c95f6;
@@ -253,7 +255,17 @@ span.load:after { border-width: 8px; }
           text-decoration: none;
           border-radius: 3.5px;
           transition: box-shadow .3s ease-in-out, background .2s ease-in-out;
+          -webkit-transition: background .2s ease-in-out, -webkit-box-shadow .3s ease-in-out;
+          transition: background .2s ease-in-out, -webkit-box-shadow .3s ease-in-out;
+          -o-transition: box-shadow .3s ease-in-out, background .2s ease-in-out;
+          transition: box-shadow .3s ease-in-out, background .2s ease-in-out;
+          transition: box-shadow .3s ease-in-out, background .2s ease-in-out, -webkit-box-shadow .3s ease-in-out;
+          -webkit-box-shadow: -4px 10px 25px 5px rgba(0,0,0,0.39);
           box-shadow: -4px 10px 25px 5px rgba(0,0,0,0.39);
+          -webkit-box-shadow: -4px 10px 25px 5px rgba(0,0,0,0.39);
+          -moz-box-shadow: -4px 10px 25px 5px rgba(0,0,0,0.39);
+          -ms-box-shadow: -4px 10px 25px 5px rgba(0,0,0,0.39);
+          -o-box-shadow: -4px 10px 25px 5px rgba(0,0,0,0.39);
           &:hover {
             background: $button-hover;
             box-shadow: -5px 8px 38px -4px rgba(0,0,0,0.39);
@@ -600,6 +612,12 @@ span.load:after { border-width: 8px; }
             }
             .bootstrap {
               color: $bs-color;
+            }
+            .node {
+              color: $node-color;
+            }
+            .api {
+              color: $api-color;
             }
 
           }
@@ -1083,6 +1101,17 @@ footer {
   border-radius: 3.5px;
   transition: box-shadow .3s ease-in-out, background .2s ease-in-out;
   box-shadow: -4px 10px 25px 5px rgba(0,0,0,0.39);
+  -webkit-transition: background .2s ease-in-out, -webkit-box-shadow .3s ease-in-out;
+  transition: background .2s ease-in-out, -webkit-box-shadow .3s ease-in-out;
+  -o-transition: box-shadow .3s ease-in-out, background .2s ease-in-out;
+  transition: box-shadow .3s ease-in-out, background .2s ease-in-out;
+  transition: box-shadow .3s ease-in-out, background .2s ease-in-out, -webkit-box-shadow .3s ease-in-out;
+  -webkit-box-shadow: -4px 10px 25px 5px rgba(0,0,0,0.39);
+  box-shadow: -4px 10px 25px 5px rgba(0,0,0,0.39);
+  -webkit-box-shadow: -4px 10px 25px 5px rgba(0,0,0,0.39);
+  -moz-box-shadow: -4px 10px 25px 5px rgba(0,0,0,0.39);
+  -ms-box-shadow: -4px 10px 25px 5px rgba(0,0,0,0.39);
+  -o-box-shadow: -4px 10px 25px 5px rgba(0,0,0,0.39);
   &:hover {
     background: $button-hover;
     box-shadow: -5px 8px 38px -4px rgba(0,0,0,0.39);

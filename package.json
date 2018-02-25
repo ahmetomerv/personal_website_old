@@ -1,0 +1,24 @@
+{
+  "name": "ahmetomer.xyz",
+  "version": "1.0.0",
+  "description": "Portfolio site of Ahmet Ömer",
+  "main": "main.js",
+  "scripts": {
+    "compile": "node-sass --include-path scss scss/styles.scss css/styles.css",
+    "watch-compile": "nodemon -e scss -x \"npm run compile\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmetomerv/ahmetomer.xyz.git"
+  },
+  "author": "Ahmet Ömer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ahmetomerv/ahmetomer.xyz/issues"
+  },
+  "homepage": "https://github.com/ahmetomerv/ahmetomer.xyz#readme",
+  "dependencies": {
+    "node-sass": "^4.7.2",
+    "nodemon": "^1.15.1"
+  }
+}
