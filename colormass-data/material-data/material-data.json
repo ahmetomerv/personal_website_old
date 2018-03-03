@@ -5,7 +5,7 @@
         "article_id": "belB12",
         "tags": ["Paid"],
         "state": "completed",
-        "gallery_image": ""
+        "gallery_image": "https://ahmetomer.xyz/colormass-data/images/shader-balls/mat0001.jpg"
     },
     {
         "id": 254,
@@ -13,7 +13,7 @@
         "article_id": "belB12",
         "tags": ["Paid"],
         "state": "completed",
-        "gallery_image": ""
+        "gallery_image": "https://ahmetomer.xyz/colormass-data/images/shader-balls/mat0002.jpg"
     },
     {
         "id": 255,
@@ -21,7 +21,7 @@
         "article_id": "belB12",
         "tags": ["Paid"],
         "state": "completed",
-        "gallery_image": ""
+        "gallery_image": "https://ahmetomer.xyz/colormass-data/images/shader-balls/mat0003.jpg"
     },
     {
         "id": 256,
@@ -29,6 +29,150 @@
         "article_id": "belB12",
         "tags": ["Paid"],
         "state": "completed",
-        "gallery_image": ""
+        "gallery_image": "https://ahmetomer.xyz/colormass-data/images/shader-balls/mat0004.jpg"
+    },
+    {
+        "id": 257,
+        "name": "Glaucous Pattern",
+        "article_id": "belB12",
+        "tags": ["Paid"],
+        "state": "completed",
+        "gallery_image": "https://ahmetomer.xyz/colormass-data/images/shader-balls/mat0005.jpg"
+    },
+    {
+        "id": 258,
+        "name": "Bistre Pattern",
+        "article_id": "belB12",
+        "tags": ["Paid"],
+        "state": "completed",
+        "gallery_image": "https://ahmetomer.xyz/colormass-data/images/shader-balls/mat0006.jpg"
+    },
+    {
+        "id": 259,
+        "name": "Licorice Pattern",
+        "article_id": "belB12",
+        "tags": ["Paid"],
+        "state": "completed",
+        "gallery_image": "https://ahmetomer.xyz/colormass-data/images/shader-balls/mat0007.jpg"
+    },
+    {
+        "id": 260,
+        "name": "Blue Bell Pattern",
+        "article_id": "belB12",
+        "tags": ["Paid"],
+        "state": "completed",
+        "gallery_image": "https://ahmetomer.xyz/colormass-data/images/shader-balls/mat0008.jpg"
+    },
+    {
+        "id": 261,
+        "name": "Tulip Pattern",
+        "article_id": "belB12",
+        "tags": ["Paid"],
+        "state": "completed",
+        "gallery_image": "https://ahmetomer.xyz/colormass-data/images/shader-balls/mat0009.jpg"
+    },
+    {
+        "id": 262,
+        "name": "Mauvelous Pattern",
+        "article_id": "belB12",
+        "tags": ["Paid"],
+        "state": "completed",
+        "gallery_image": "https://ahmetomer.xyz/colormass-data/images/shader-balls/mat0010.jpg"
+    },
+    {
+        "id": 263,
+        "name": "Fuchsia Pattern",
+        "article_id": "belB12",
+        "tags": ["Paid"],
+        "state": "completed",
+        "gallery_image": "https://ahmetomer.xyz/colormass-data/images/shader-balls/mat0011.jpg"
+    },
+    {
+        "id": 264,
+        "name": "Shadow Pattern",
+        "article_id": "belB12",
+        "tags": ["Paid"],
+        "state": "completed",
+        "gallery_image": "https://ahmetomer.xyz/colormass-data/images/shader-balls/mat0012.jpg"
+    },
+    {
+        "id": 265,
+        "name": "Quartz Pattern",
+        "article_id": "belB12",
+        "tags": ["Paid"],
+        "state": "completed",
+        "gallery_image": "https://ahmetomer.xyz/colormass-data/images/shader-balls/mat0013.jpg"
+    },
+    {
+        "id": 266,
+        "name": "Vermilion Pattern",
+        "article_id": "belB12",
+        "tags": ["Paid"],
+        "state": "completed",
+        "gallery_image": "https://ahmetomer.xyz/colormass-data/images/shader-balls/mat0014.jpg"
+    },
+    {
+        "id": 267,
+        "name": "Livid Pattern",
+        "article_id": "belB12",
+        "tags": ["Paid"],
+        "state": "completed",
+        "gallery_image": "https://ahmetomer.xyz/colormass-data/images/shader-balls/mat0015.jpg"
+    },
+    {
+        "id": 268,
+        "name": "Platinum Pattern",
+        "article_id": "belB12",
+        "tags": ["Paid"],
+        "state": "completed",
+        "gallery_image": "https://ahmetomer.xyz/colormass-data/images/shader-balls/mat0016.jpg"
+    },
+    {
+        "id": 269,
+        "name": "Pictorial Pattern",
+        "article_id": "belB12",
+        "tags": ["Paid"],
+        "state": "completed",
+        "gallery_image": "https://ahmetomer.xyz/colormass-data/images/shader-balls/mat0017.jpg"
+    },
+    {
+        "id": 270,
+        "name": "Pistachio Pattern",
+        "article_id": "belB12",
+        "tags": ["Paid"],
+        "state": "completed",
+        "gallery_image": "https://ahmetomer.xyz/colormass-data/images/shader-balls/mat0018.jpg"
+    },
+    {
+        "id": 271,
+        "name": "Amaranth Pattern",
+        "article_id": "belB12",
+        "tags": ["Paid"],
+        "state": "completed",
+        "gallery_image": "https://ahmetomer.xyz/colormass-data/images/shader-balls/mat0019.jpg"
+    },
+    {
+        "id": 272,
+        "name": "Topaz Pattern",
+        "article_id": "belB12",
+        "tags": ["Paid"],
+        "state": "completed",
+        "gallery_image": "https://ahmetomer.xyz/colormass-data/images/shader-balls/mat0020.jpg"
+    },
+    {
+        "id": 273,
+        "name": "Linen Pattern",
+        "article_id": "belB12",
+        "tags": ["Paid"],
+        "state": "completed",
+        "gallery_image": "https://ahmetomer.xyz/colormass-data/images/shader-balls/mat0021.jpg"
+    },
+    {
+        "id": 274,
+        "name": "Weldon  Pattern",
+        "article_id": "belB12",
+        "tags": ["Paid"],
+        "state": "completed",
+        "gallery_image": "https://ahmetomer.xyz/colormass-data/images/shader-balls/mat0022.jpg"
     }
 ]
