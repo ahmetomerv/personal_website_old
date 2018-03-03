@@ -169,7 +169,56 @@
     },
     {
         "id": 274,
-        "name": "Weldon  Pattern",
+        "name": "Weldon Pattern",
+        "article_id": "belB12",
+        "tags": ["Paid"],
+        "state": "completed",
+        "gallery_image": "//c1.staticflickr.com/5/4795/25713732407_b61559e0bc.jpg"
+    },
+    // extra
+    {
+        "id": 275,
+        "name": "Rackley Pattern",
+        "article_id": "belB12",
+        "tags": ["Paid"],
+        "state": "completed",
+        "gallery_image": "//c1.staticflickr.com/5/4677/26712763388_dff01f9e28.jpg"
+    },
+    {
+        "id": 276,
+        "name": "Timberwolf Pattern",
+        "article_id": "belB12",
+        "tags": ["Paid"],
+        "state": "completed",
+        "gallery_image": "//c1.staticflickr.com/5/4796/26712772228_4fed30953d.jpg"
+    },
+    {
+        "id": 277,
+        "name": "Diamond Pattern",
+        "article_id": "belB12",
+        "tags": ["Paid"],
+        "state": "completed",
+        "gallery_image": "//c1.staticflickr.com/5/4795/25713732407_b61559e0bc.jpg"
+    },
+    {
+        "id": 278,
+        "name": "Maroon Pattern",
+        "article_id": "belB12",
+        "tags": ["Paid"],
+        "state": "completed",
+        "gallery_image": "//c1.staticflickr.com/5/4617/26712773088_b334e1cc3c.jpg"
+    },
+    {
+        "id": 279,
+        "name": "Moonstone Pattern",
+        "article_id": "belB12",
+        "tags": ["Paid"],
+        "state": "completed",
+        "gallery_image": "//c1.staticflickr.com/5/4769/39873965364_b47fb89474.jpg"
+    },
+    {
+        "id": 280,
+        "name": "Keppel Pattern",
         "article_id": "belB12",
         "tags": ["Paid"],
         "state": "completed",
