@@ -1,0 +1,34 @@
+[
+    {
+        "id": 253,
+        "name": "Bellini Pattern Black",
+        "article_id": "belB12",
+        "tags": ["Paid"],
+        "state": "completed",
+        "gallery_image": ""
+    },
+    {
+        "id": 254,
+        "name": "Bellini Pattern Choclate",
+        "article_id": "belB12",
+        "tags": ["Paid"],
+        "state": "completed",
+        "gallery_image": ""
+    },
+    {
+        "id": 255,
+        "name": "Bellini Pattern Cream",
+        "article_id": "belB12",
+        "tags": ["Paid"],
+        "state": "completed",
+        "gallery_image": ""
+    },
+    {
+        "id": 256,
+        "name": "Bellini Pattern Grey",
+        "article_id": "belB12",
+        "tags": ["Paid"],
+        "state": "completed",
+        "gallery_image": ""
+    }
+]
