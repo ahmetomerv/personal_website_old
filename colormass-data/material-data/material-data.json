@@ -222,5 +222,69 @@
         "tags": ["Paid"],
         "state": "completed",
         "gallery_image": "//c1.staticflickr.com/5/4795/25713732407_b61559e0bc.jpg"
+    },
+    {
+        "id": 281,
+        "name": "Sunglow Pattern",
+        "article_id": "belB42",
+        "tags": ["Paid"],
+        "state": "completed",
+        "gallery_image": "//c1.staticflickr.com/5/4655/26712773888_ab5d3cecfd.jpg"
+    },
+    {
+        "id": 282,
+        "name": "Bellini Pattern Chestnut",
+        "article_id": "belB12",
+        "tags": ["Paid"],
+        "state": "completed",
+        "gallery_image": "//c1.staticflickr.com/5/4617/26712773088_b334e1cc3c.jpg"
+    },
+    {
+        "id": 283,
+        "name": "Bellini Pattern Cream",
+        "article_id": "belB12",
+        "tags": ["Paid"],
+        "state": "completed",
+        "gallery_image": "//c1.staticflickr.com/5/4796/26712772228_4fed30953d.jpg"
+    },
+    {
+        "id": 284,
+        "name": "Bellini Pattern Grey",
+        "article_id": "belB12",
+        "tags": ["Paid"],
+        "state": "completed",
+        "gallery_image": "//c1.staticflickr.com/5/4621/26712771598_3735787cfc.jpg"
+    },
+    {
+        "id": 285,
+        "name": "Glaucous Pattern",
+        "article_id": "belB12",
+        "tags": ["Paid"],
+        "state": "completed",
+        "gallery_image": "//c1.staticflickr.com/5/4788/26712770948_080b3fff5d.jpg"
+    },
+    {
+        "id": 286,
+        "name": "Bistre Pattern",
+        "article_id": "belB12",
+        "tags": ["Paid"],
+        "state": "completed",
+        "gallery_image": "//c1.staticflickr.com/5/4658/25713742737_37ddce4ec1.jpg"
+    },
+    {
+        "id": 287,
+        "name": "Licorice Pattern",
+        "article_id": "belB12",
+        "tags": ["Paid"],
+        "state": "completed",
+        "gallery_image": "//c1.staticflickr.com/5/4744/39873966234_b48fd34676.jpg"
+    },
+    {
+        "id": 288,
+        "name": "Blue Bell Pattern",
+        "article_id": "belB12",
+        "tags": ["Paid"],
+        "state": "completed",
+        "gallery_image": "//c1.staticflickr.com/5/4774/25713741637_bffcc40d8e.jpg"
     }
 ]
