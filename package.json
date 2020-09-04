@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/ahmetomerv/ahmetomer.xyz#readme",
   "dependencies": {
-    "node-sass": "^4.7.2",
+    "node-sass": "^4.13.1",
     "nodemon": "^1.15.1"
   }
 }
